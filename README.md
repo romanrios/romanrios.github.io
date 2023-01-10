@@ -1,5 +1,3 @@
 # romanrios.github.io
 
-Argentina Progama 4.0
-Ticmas Front end Academy 2022
-Proyecto final integrador
+Proyecto final integrador | Ticmas Front end Academy 2022 | Argentina Programa 4.0

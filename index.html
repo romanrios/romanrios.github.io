@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Román Ríos</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li>Inicio</li>
+                <li>Proyectos</li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <img src="images/perfil.jpg">
+            <h1>Román Ríos</h1>
+            <h2 id="hero">Diseñador gráfico y programador</h2>
+        </section>
+
+        <section id="projects">
+            <h2>Proyectos realizados</h2>
+            <div class="projects-list">
+
+                <div class="project-detail">
+                    <img src="images/proyecto1.webp">
+                    <h3>Futumag</h3>
+                    <p>Magazine digital sobre diseño y tecnología</p>
+                    <a href="https://www.behance.net/gallery/152697725/FUTUMAG-Revista-Digital" target="_blank">Enlace
+                        al proyecto</a>
+                </div>
+
+                <div class="project-detail">
+                    <img src="images/proyecto2.webp">
+                    <h3>We Sound</h3>
+                    <p>Red social de producción musical colaborativa</p>
+                        <a href="https://www.behance.net/gallery/62267843/We-Sound-Red-social-de-produccion-musical"
+                            target="_blank">Enlace
+                            al proyecto</a>
+                </div>
+
+                <div class="project-detail">
+                    <img src="images/proyecto3.webp">
+                    <h3>Pirogram</h3>
+                    <p>Identidad visual para estudio de diseño</p>
+                    <a href="https://www.behance.net/gallery/152762299/Pirogram-Identidad-para-estudio-de-diseno"
+                        target="_blank">Enlace
+                        al proyecto</a>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact">
+
+                        <h2>Contacta conmigo</h2>
+
+            <form class="form" action="https://formspree.io/f/meqwqwnb"
+            method="POST">
+                <div class="form_container">
+                    <input type="text" class="form__input" placeholder="Nombre:" name="name">
+                    <input type="email" class="form__input" placeholder="Email:" name="_replyto">
+                    <textarea class="form__input form__input--message" placeholder="Mensaje:" name="message" rows="7"></textarea>
+                    <input type="submit" value="Enviar" class="form__cta">
+                </div>
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer></footer>
+</body>
+
+</html>

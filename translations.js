@@ -4,8 +4,8 @@ export const elements_innerHTML = {
     es: "Desarrollador de Software /<br/>Diseñador de Comunicación Visual",
   },
   hero2_text: {
-    en: "Hello, I'm Román!<br /><br />👨‍💻 Software Developer and Visual Designer with a specialization in Web Development and Multimedia Design.<br /><br />🎓 I completed my degree at FADU of the National University of Litoral, with supplementary studies in Web Development and Programming. I am currently pursuing a Higher Technical Degree in Software Development, strengthening my professional profile.<br /><br />💼 I work as an intern at the Ministry of Labor, Employment, and Social Security of the Province of Santa Fe, and also lead projects as a freelance professional in the area of Game Design and Development.<br /><br />⚙️ My professional approach is based on proactivity, teamwork, effective communication, and adaptability, with a constant commitment to training to face challenges and achieve goals.<br /><br />🚀 Ready to bring all my potential and experience to new projects. Let's connect!",
-    es: "¡Hola, soy Román!<br /><br />👨‍💻 Desarrollador de Software y Diseñador de Comunicación Visual con especialización en Desarrollo Web y Diseño Multimedia.<br /><br />🎓 Realicé mi carrera en la FADU de la Universidad Nacional del Litoral, con estudios complementarios en Desarrollo Web y Programación. Actualmente cursando la Tecnicatura Superior en Desarrollo de Software, fortaleciendo mi perfil profesional.<br /><br />💼 Me desempeño como pasante en el Ministerio de Trabajo, Empleo y Seguridad Social de la Provincia de Santa Fe, y además llevo adelante proyectos como profesional independiente en el área de Diseño y Desarrollo de Videojuegos.<br /><br />⚙️ Mi enfoque profesional se basa en la proactividad, el trabajo en equipo, la comunicación efectiva y la adaptabilidad, con un compromiso constante hacia la formación para enfrentar desafíos y alcanzar objetivos.<br /><br />🚀 Listo para aportar todo mi potencial y experiencia a nuevos proyectos. ¡Conectemos!",
+    en: "Software Developer and Visual Communication Designer, with a focus on web development and multimedia design. <br><br> Background in Visual Communication Design (FADU–UNL) and continuous training in web development and programming. Currently pursuing a Technical Degree in Software Development. <br><br> I currently work at the Ministry of Labor of Santa Fe, where I contribute to the design and production of graphic, digital, and audiovisual content, as well as the development of official documents and publications.  <br><br> I’m a proactive, adaptable team player with a strong interest in continuous learning and adding value to every project.",
+    es: "Desarrollador de software y diseñador de comunicación visual, con foco en desarrollo web y diseño multimedia.        <br><br>        Formación en Diseño de Comunicación Visual (FADU-UNL) y capacitación continua en desarrollo web y programación.        Actualmente curso la Tecnicatura Superior en Desarrollo de Software.        <br> <br>        Trabajo en el Ministerio de Trabajo de Santa Fe, donde participo en el diseño y la producción de contenidos        gráficos, digitales y audiovisuales, así como en la elaboración de documentos y publicaciones institucionales.        <br><br>          Me caracterizo por ser proactivo, adaptable y orientado al trabajo en equipo, con interés constante en aprender          y aportar valor a cada proyecto.",
   },
   nav_inicio: {
     en: "Home",
@@ -124,8 +124,8 @@ export const elements_innerHTML = {
     es: "Programa de formación con especialización Front-end",
   },
   exp_codoacodo: {
-    en: "■ React JS specialization course<br/>■ Soft Skills Course<br/>■ Full Stack Web Development - Node.JS",
-    es: "■ Curso de especialización React JS<br/>■ Curso de Habilidades Blandas<br/>■ Full Stack Desarrollo Web - Node.JS",
+    en: "■ React JS specialization course<br />■ Soft Skills Course<br />■ Full Stack Web Development - Node.JS",
+    es: "■ Curso de especialización React JS<br />■ Curso de Habilidades Blandas<br />■ Full Stack Desarrollo Web - Node.JS",
   },
   exp_pixi: {
     en: "Game development with Pixi.JS",
@@ -186,10 +186,6 @@ export const elements_innerHTML = {
   hab_musicaoriginal: {
     en: "Original music",
     es: "Música original",
-  },
-  hab_efectosdesonido: {
-    en: "Sound effects",
-    es: "Efectos de sonido",
   },
   hab_vst: {
     en: "VST Virtual instruments",

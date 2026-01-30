@@ -1,8 +1,11 @@
 import { renderNavbar } from "./components/Navbar.js";
 import { renderHero } from "./components/Hero.js";
+import { translatePage, setLanguage } from "./data/i18n.js";
 
 document.querySelector("#navbar").innerHTML = renderNavbar();
 document.querySelector("#hero").innerHTML = renderHero();
+
+// -----------------------
 
 // Navbar
 const toggleButton = document.querySelector(".nav__toggle");
@@ -24,3 +27,17 @@ window.addEventListener("resize", () => {
     menu.classList.remove("is-open", "is-animated");
   }
 });
+
+// -----------------------
+
+// Activar traducciones
+translatePage();
+
+// Botones de idioma
+document.querySelectorAll(".nav__lang-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    setLanguage(btn.dataset.lang);
+  });
+});
+
+// -----------------------

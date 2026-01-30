@@ -1,5 +1,5 @@
 export function renderNavbar() {
-    return `
+  return `
     <nav class="nav">
       <div class="nav__language">
         <button class="nav__lang-btn" data-lang="es">ES</button>
@@ -11,12 +11,12 @@ export function renderNavbar() {
       </button>
 
       <ul class="nav__menu">
-        <li><a href="#hero">Inicio</a></li>
-        <li><a href="#experience">Experiencia</a></li>
-        <li><a href="#skills">Habilidades</a></li>
-        <li><a href="#projects">Portfolio</a></li>
-        <li><a href="#downloads">Descargas</a></li>
-        <li><a href="#contact">Contacto</a></li>
+        <li><a href="#hero" data-i18n="nav.home"></a></li>
+        <li><a href="#experience" data-i18n="nav.experience"></a></li>
+        <li><a href="#skills" data-i18n="nav.skills"></a></li>
+        <li><a href="#projects" data-i18n="nav.projects"></a></li>
+        <li><a href="#downloads" data-i18n="nav.downloads"></a></li>
+        <li><a href="#contact" data-i18n="nav.contact"></a></li>
       </ul>
     </nav>
   `;

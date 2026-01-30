@@ -1,5 +1,5 @@
 export function renderHero() {
-    return `
+  return `
     <div class="hero">
       <img
         class="hero__image"
@@ -9,10 +9,7 @@ export function renderHero() {
 
       <h1 class="hero__title">Román Ríos</h1>
 
-      <p class="hero__subtitle">
-        Desarrollador de Software /<br />
-        Diseñador de Comunicación Visual
-      </p>
+      <p class="hero__subtitle" data-i18n="hero.subtitle"></p>
     </div>
   `;
 }

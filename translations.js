@@ -60,8 +60,8 @@ export const elements_innerHTML = {
     es: "Tecnicatura Superior en Desarrollo de Software",
   },
   anio_pasantia: {
-    en: "2024 ~ Present",
-    es: "2024 ~ Presente",
+    en: "2024 ~ present",
+    es: "2024 ~ presente",
   },
   anio_oracle: {
     en: "2024 ~ In progress",
@@ -72,16 +72,16 @@ export const elements_innerHTML = {
     es: "Profesional independiente",
   },
   anio_freelance: {
-    en: "2018 ~ Present",
-    es: "2018 ~ Presente",
+    en: "2018 ~ present",
+    es: "2018 ~ presente",
   },
   exp_universidad: {
     en: "Bachelor in Visual Communication Design. University Degree. Facultad de Arquitectura, Diseño y Urbanismo.",
     es: "Licenciatura en Diseño de Comunicación Visual. Carrera de grado. Facultad de Arquitectura, Diseño y Urbanismo.",
   },
   anio_universidad: {
-    en: "2005 ~ Present (Thesis)",
-    es: "2005 ~ Presente (Tesina)",
+    en: "2005 ~ present (thesis)",
+    es: "2005 ~ presente (tesina)",
   },
   exp_argentina: {
     en: "■ #SeProgramar course (INTI)<br>■ Front-end Development (Ticmas)<br>■ Android App Development (Ticmas)<br>■ Front-end Development (Educado en Argentina)<br>■ English Level 8 B1.2 MCER (CUI-UBA)",

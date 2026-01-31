@@ -2,12 +2,13 @@ import { translatePage, setLanguage } from "./data/i18n.js";
 import { renderNavbar } from "./components/Navbar.js";
 import { renderHero } from "./components/Hero.js";
 import { renderProfile } from "./components/Profile.js";
+import { renderExperience } from "./components/Experience.js";
 
 
 document.querySelector("#navbar").innerHTML = renderNavbar();
 document.querySelector("#hero").innerHTML = renderHero();
 document.querySelector("#profile").innerHTML = renderProfile();
-
+document.querySelector("#experience").innerHTML = renderExperience();
 
 // -----------------------
 
@@ -41,6 +42,7 @@ translatePage();
 document.querySelectorAll(".nav__lang-btn").forEach(btn => {
   btn.addEventListener("click", () => {
     setLanguage(btn.dataset.lang);
+    document.querySelector("#experience").innerHTML = renderExperience(); // necesario
   });
 });
 

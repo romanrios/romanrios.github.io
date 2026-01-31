@@ -63,10 +63,6 @@ export const elements_innerHTML = {
     en: "2024 ~ Present",
     es: "2024 ~ Presente",
   },
-  anio_tecnicatura: {
-    en: "2024 ~ In progress",
-    es: "2024 ~ En curso",
-  },
   anio_oracle: {
     en: "2024 ~ In progress",
     es: "2024 ~ En curso",
@@ -84,8 +80,8 @@ export const elements_innerHTML = {
     es: "Licenciatura en Diseño de Comunicación Visual. Carrera de grado. Facultad de Arquitectura, Diseño y Urbanismo.",
   },
   anio_universidad: {
-    en: "2005 ~ Pending thesis",
-    es: "2005 ~ Tesina pendiente",
+    en: "2005 ~ Present (Thesis)",
+    es: "2005 ~ Presente (Tesina)",
   },
   exp_argentina: {
     en: "■ #SeProgramar course (INTI)<br>■ Front-end Development (Ticmas)<br>■ Android App Development (Ticmas)<br>■ Front-end Development (Educado en Argentina)<br>■ English Level 8 B1.2 MCER (CUI-UBA)",

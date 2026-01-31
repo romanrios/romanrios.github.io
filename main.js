@@ -1,9 +1,13 @@
+import { translatePage, setLanguage } from "./data/i18n.js";
 import { renderNavbar } from "./components/Navbar.js";
 import { renderHero } from "./components/Hero.js";
-import { translatePage, setLanguage } from "./data/i18n.js";
+import { renderProfile } from "./components/Profile.js";
+
 
 document.querySelector("#navbar").innerHTML = renderNavbar();
 document.querySelector("#hero").innerHTML = renderHero();
+document.querySelector("#profile").innerHTML = renderProfile();
+
 
 // -----------------------
 

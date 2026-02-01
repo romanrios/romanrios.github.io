@@ -1,3 +1,6 @@
+
+import { translate } from "./i18n.js";
+
 import { setLanguage } from "./lang.js";
 import { renderNavbar } from "./components/Navbar.js";
 import { renderHero } from "./components/Hero.js";
@@ -13,6 +16,7 @@ function renderApp() {
   document.querySelector("#experience").innerHTML = renderExperience();
   document.querySelector("#skills").innerHTML = renderSkills();
 
+  translate();
   initNavbarEvents();
 }
 
@@ -36,7 +40,7 @@ function initNavbarEvents() {
   document.querySelectorAll(".nav__lang-btn").forEach(btn => {
     btn.addEventListener("click", () => {
       setLanguage(btn.dataset.lang);
-      renderApp();
+      translate();
     });
   });
 }

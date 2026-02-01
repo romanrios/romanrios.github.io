@@ -1,48 +1,55 @@
-import { experience, experienceMeta } from "../data/experience.js";
-import { getLanguage } from "../lang.js";
+import { experience } from "../data/experience.js";
 
-function renderCard(item, lang) {
+function renderCard(type, index) {
   return `
     <div class="exp__card">
       <div class="exp__info">
-        <h3 class="exp__card-title">${item.title[lang]}</h3>
-        <p>${item.description[lang]}</p>
-        <p class="exp__anio">${item.period[lang]}</p>
+        <h3
+          class="exp__card-title"
+          data-i18n="experience.${type}.${index}.title"
+        ></h3>
+
+        <p data-i18n="experience.${type}.${index}.description"></p>
+
+        <p
+          class="exp__anio"
+          data-i18n="experience.${type}.${index}.period"
+        ></p>
       </div>
     </div>
   `;
 }
 
-function renderTimeline(titleKey, items, lang) {
+function renderTimeline(type) {
   return `
     <div class="exp__timeline">
-      <h3 class="exp__timeline_top_title">
-        ${experienceMeta[titleKey][lang]}
-      </h3>
+      <h3
+        class="exp__timeline_top_title"
+        data-i18n="experienceMeta.${type}"
+      ></h3>
 
       <div class="exp__outer">
-        ${items.map(item => renderCard(item, lang)).join("")}
+        ${experience[type].map((_, i) => renderCard(type, i)).join("")}
       </div>
     </div>
   `;
 }
 
 export function renderExperience() {
-  const lang = getLanguage();
-
   return `
     <section class="exp">
-      <h2 class="exp__title">
-        ${experienceMeta.sectionTitle[lang]}
-      </h2>
+      <h2
+        class="exp__title"
+        data-i18n="experienceMeta.sectionTitle"
+      ></h2>
 
       <section class="exp__timelines-container">
         <div>
-          ${renderTimeline("academic", experience.academic, lang)}
-          ${renderTimeline("work", experience.work, lang)}
+          ${renderTimeline("academic")}
+          ${renderTimeline("work")}
         </div>
 
-        ${renderTimeline("courses", experience.courses, lang)}
+        ${renderTimeline("courses")}
       </section>
     </section>
   `;

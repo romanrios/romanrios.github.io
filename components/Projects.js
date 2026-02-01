@@ -1,5 +1,4 @@
 import { projects } from "../data/projects.js";
-import { t } from "../data/i18n.js";
 
 function renderMedia(media) {
   if (media.type === "iframe") {

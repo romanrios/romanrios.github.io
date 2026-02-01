@@ -1,14 +1,25 @@
+export const skillsMeta = {
+  sectionTitle: {
+    es: "Habilidades",
+    en: "Skills",
+  },
+};
+
 export const skills = [
   {
-    titleKey: "skills.design",
+    title: {
+      es: "DISEÑO",
+      en: "DESIGN",
+    },
+
     items: [
-      "skills.items.visual_identity",
-      "skills.items.web_apps",
-      "skills.items.ui",
+      { es: "Identidad visual", en: "Visual identity" },
+      { es: "Diseño web y Apps", en: "Web and App design" },
+      { es: "Interfaz de usuario", en: "User interface" },
       "Responsive Design",
       "Motion graphics",
-      "skills.items.information_design",
-      "skills.items.editorial_design",
+      { es: "Diseño de información", en: "Information design" },
+      { es: "Diseño editorial", en: "Editorial design" },
       "Illustrator",
       "Photoshop",
       "CorelDRAW",
@@ -18,8 +29,13 @@ export const skills = [
       "InDesign",
     ],
   },
+
   {
-    titleKey: "skills.development",
+    title: {
+      es: "DESARROLLO",
+      en: "DEVELOPMENT",
+    },
+
     items: [
       "HTML5",
       "CSS3",
@@ -39,15 +55,20 @@ export const skills = [
       "Game Engines",
     ],
   },
+
   {
-    titleKey: "skills.other",
+    title: {
+      es: "OTRAS",
+      en: "OTHER",
+    },
+
     items: [
-      "skills.items.proactivity",
-      "skills.items.teamwork",
-      "skills.items.communication",
-      "skills.items.adaptability",
-      "skills.items.original_music",
-      "skills.items.vst",
+      { es: "Proactividad", en: "Proactivity" },
+      { es: "Trabajo en equipo", en: "Teamwork" },
+      { es: "Comunicación efectiva", en: "Effective communication" },
+      { es: "Adaptabilidad", en: "Adaptability" },
+      { es: "Música original", en: "Original music" },
+      { es: "Instrumentos virtuales VST", en: "Virtual instruments VST" },
       "MIDI",
       "Adobe Audition",
       "FL Studio",

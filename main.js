@@ -3,12 +3,15 @@ import { renderNavbar } from "./components/Navbar.js";
 import { renderHero } from "./components/Hero.js";
 import { renderProfile } from "./components/Profile.js";
 import { renderExperience } from "./components/Experience.js";
+import { renderSkills } from "./components/Skills.js";
 
 
 document.querySelector("#navbar").innerHTML = renderNavbar();
 document.querySelector("#hero").innerHTML = renderHero();
 document.querySelector("#profile").innerHTML = renderProfile();
 document.querySelector("#experience").innerHTML = renderExperience();
+document.querySelector("#skills").innerHTML = renderSkills();
+
 
 // -----------------------
 

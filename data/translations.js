@@ -70,6 +70,27 @@ Me defino como una persona proactiva, adaptable y orientada al trabajo en equipo
             current_2018: "2018 ~ presente",
             thesis_pending: "2005 ~ presente (tesina)",
         },
+        skills: {
+            title: "Habilidades",
+            design: "DISEÑO",
+            development: "DESARROLLO",
+            other: "OTRAS",
+
+            items: {
+                visual_identity: "Identidad visual",
+                web_apps: "Diseño web y Apps",
+                ui: "Interfaz de usuario",
+                information_design: "Diseño de información",
+                editorial_design: "Diseño editorial",
+
+                proactivity: "Proactividad",
+                teamwork: "Trabajo en equipo",
+                communication: "Comunicación efectiva",
+                adaptability: "Adaptabilidad",
+                original_music: "Música original",
+                vst: "Instrumentos virtuales VST",
+            },
+        },
     },
 
     en: {
@@ -140,6 +161,27 @@ I define myself as a proactive, adaptable, and team-oriented professional, with 
             current_2024: "2024 ~ present",
             current_2018: "2018 ~ present",
             thesis_pending: "2005 ~ present (thesis)",
+        },
+        skills: {
+            title: "Skills",
+            design: "DESIGN",
+            development: "DEVELOPMENT",
+            other: "OTHER",
+
+            items: {
+                visual_identity: "Visual identity",
+                web_apps: "Web and App design",
+                ui: "User interface",
+                information_design: "Information design",
+                editorial_design: "Editorial design",
+
+                proactivity: "Proactivity",
+                teamwork: "Teamwork",
+                communication: "Effective communication",
+                adaptability: "Adaptability",
+                original_music: "Original music",
+                vst: "Virtual instruments VST",
+            },
         },
 
     },

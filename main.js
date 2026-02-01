@@ -42,7 +42,6 @@ translatePage();
 document.querySelectorAll(".nav__lang-btn").forEach(btn => {
   btn.addEventListener("click", () => {
     setLanguage(btn.dataset.lang);
-    document.querySelector("#experience").innerHTML = renderExperience(); // necesario
   });
 });
 

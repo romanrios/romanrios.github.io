@@ -27,19 +27,23 @@ Me defino como una persona proactiva, adaptable y orientada al trabajo en equipo
         },
         exp: {
             academic: {
+                unl: "Universidad Nacional del Litoral",
                 software: "Tecnicatura Superior en Desarrollo de Software",
                 design:
                     "Licenciatura en Diseño de Comunicación Visual. Carrera de grado. Facultad de Arquitectura, Diseño y Urbanismo.",
             },
 
             work: {
+                ministry: "Ministerio de Trabajo, Empleo y Seguridad Social de la Provincia de Santa Fe",
+                freelancer: "Profesional independiente",
+                seal_desc: "Administración y facturación en industria de productos plásticos.",
                 internship: "Pasantía de Diseño de Comunicación Visual.",
                 freelance: "Desarrollo de software y diseño multimedial.",
-                seal:
-                    "Administración y facturación en industria de productos plásticos.",
-                fusa: "Diseño multimedial independiente.",
-                zonazero:
+                fusa: "Fusa Diseño",
+                fusa_desc: "Diseño multimedial independiente.",
+                zonazero_desc:
                     "Ventas y servicio técnico de videojuegos e informática.",
+
             },
 
             courses: {
@@ -55,6 +59,7 @@ Me defino como una persona proactiva, adaptable y orientada al trabajo en equipo
                     "■ Curso #SeProgramar (INTI)<br />■ Desarrollo Front-end (Ticmas)<br />■ Desarrollo de aplicaciones Android (Ticmas)<br />■ Desarrollo Front-end (Educado en Argentina)<br />■ Inglés Nivel 8 B1.2 MCER (CUI-UBA)",
                 cisco:
                     "■ JavaScript Essentials 1<br />■ Python Essentials 1<br />■ English for IT 1",
+                motion_title: "Curso de Posgrado FADU UNL",
                 motion:
                     "Motion Graphics Design: Del diseño gráfico al diseño en movimiento.",
             },
@@ -103,13 +108,13 @@ I define myself as a proactive, adaptable, and team-oriented professional, with 
             },
 
             work: {
+                ministry: "Ministerio de Trabajo, Empleo y Seguridad Social de la Provincia de Santa Fe",
+                freelancer: "Profesional independiente",
+                seal_desc: "Administration and invoicing in the plastic products industry.",
                 internship: "Visual Communication Design Internship.",
                 freelance: "Software development and multimedia design.",
-                seal:
-                    "Administration and billing in the plastic products industry.",
-                fusa: "Independent multimedia design.",
-                zonazero:
-                    "Sales and technical service for video games and computer equipment.",
+                fusa_desc: "Independent multimedia design.",
+                zonazero_desc: "Sales and technical service for video games and computer equipment.",
             },
 
             courses: {
@@ -125,6 +130,7 @@ I define myself as a proactive, adaptable, and team-oriented professional, with 
                     "■ #SeProgramar course (INTI)<br />■ Front-end Development (Ticmas)<br />■ Android App Development (Ticmas)<br />■ Front-end Development (Educado en Argentina)<br />■ English Level 8 B1.2 CEFR (CUI-UBA)",
                 cisco:
                     "■ JavaScript Essentials 1<br />■ Python Essentials 1<br />■ English for IT 1",
+                motion_title: "Postgraduate course FADU UNL",
                 motion:
                     "Motion Graphics Design: From graphic design to motion design.",
             },

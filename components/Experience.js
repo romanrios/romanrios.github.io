@@ -1,15 +1,21 @@
 import { experience } from "../data/experience.js";
-import { t } from "../data/i18n.js";
 
 function renderCard(item) {
-  const period = item.periodKey ? t(item.periodKey) : item.period;
+  const period = item.periodKey
+    ? `<p class="exp__anio" data-i18n="${item.periodKey}"></p>`
+    : `<p class="exp__anio">${item.period}</p>`;
+
+  const cardTitle = item.titleKey
+    ? `<h3 class="exp__card-title" data-i18n="${item.titleKey}"></h3>`
+    : `<h3 class="exp__card-title">${item.title}</h3>`
+
 
   return `
     <div class="exp__card">
       <div class="exp__info">
-        <h3 class="exp__card-title">${item.title}</h3>
-        <p>${t(item.descriptionKey)}</p>
-        <p class="exp__anio">${period}</p>
+        ${cardTitle}
+        <p data-i18n="${item.descriptionKey}"></p>
+        ${period}
       </div>
     </div>
   `;

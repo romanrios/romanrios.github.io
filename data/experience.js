@@ -1,9 +1,9 @@
 export const experience = {
   academic: [
     {
-      title: "IFTS N° 29",
+      title: "IFTS N°29",
       descriptionKey: "exp.academic.software",
-      periodKey: "2024 ~ 2026",
+      period: "2024 ~ 2026",
     },
     {
       title: "Universidad Nacional del Litoral",
@@ -14,29 +14,28 @@ export const experience = {
 
   work: [
     {
-      title:
-        "Ministerio de Trabajo, Empleo y Seguridad Social de la Provincia de Santa Fe",
+      titleKey: "exp.work.ministry",
       descriptionKey: "exp.work.internship",
       periodKey: "period.current_2024",
     },
     {
-      title: "Profesional independiente",
+      titleKey: "exp.work.freelancer",
       descriptionKey: "exp.work.freelance",
-      periodKey: "2022 ~ 2024",
+      period: "2022 ~ 2024",
     },
     {
-      title: "Seal Innovation S.A.",
-      descriptionKey: "exp.work.seal",
+      title: "Seal Innovation SA",
+      descriptionKey: "exp.work.seal_desc",
       period: "2018 ~ 2022",
     },
     {
       title: "Fusa Diseño",
-      descriptionKey: "exp.work.fusa",
+      descriptionKey: "exp.work.fusa_desc",
       period: "2010 ~ 2018",
     },
     {
       title: "Zona Zero",
-      descriptionKey: "exp.work.zonazero",
+      descriptionKey: "exp.work.zonazero_desc",
       period: "2011 ~ 2018",
     },
   ],
@@ -73,7 +72,7 @@ export const experience = {
       period: "2022 ~ 2023",
     },
     {
-      title: "Curso de Posgrado FADU UNL",
+      titleKey: "exp.courses.motion_title",
       descriptionKey: "exp.courses.motion",
       period: "2012",
     },

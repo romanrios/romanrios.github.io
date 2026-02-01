@@ -5,11 +5,11 @@ function renderCard(item) {
   const period = item.periodKey ? t(item.periodKey) : item.period;
 
   return `
-    <div class="card">
-      <div class="info">
-        <h3 class="title">${item.title}</h3>
+    <div class="exp__card">
+      <div class="exp__info">
+        <h3 class="exp__card-title">${item.title}</h3>
         <p>${t(item.descriptionKey)}</p>
-        <p class="anio">${period}</p>
+        <p class="exp__anio">${period}</p>
       </div>
     </div>
   `;
@@ -17,9 +17,9 @@ function renderCard(item) {
 
 function renderTimeline(titleKey, items) {
   return `
-    <div class="timeline">
-      <h3 class="timeline_top_title" data-i18n="${titleKey}"></h3>
-      <div class="outer">
+    <div class="exp__timeline">
+      <h3 class="exp__timeline_top_title" data-i18n="${titleKey}"></h3>
+      <div class="exp__outer">
         ${items.map(renderCard).join("")}
       </div>
     </div>
@@ -28,10 +28,10 @@ function renderTimeline(titleKey, items) {
 
 export function renderExperience() {
   return `
-    <section class="experience">
-      <h2 data-i18n="nav.experience"></h2>
+    <section class="exp">
+      <h2 class="exp__title" data-i18n="nav.experience"></h2>
 
-      <section class="timelines-container">
+      <section class="exp__timelines-container">
         <div>
           ${renderTimeline("experience.academic", experience.academic)}
           ${renderTimeline("experience.work", experience.work)}

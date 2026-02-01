@@ -14,10 +14,11 @@ export const translations = {
         },
         profile: {
             description: `
-Software Developer and Visual Communication Designer, with a focus on web development and multimedia design.       <br /><br />
-I have a university background in Visual Communication Design (FADU–UNL) and I am currently in the final stage of a Higher Technical Degree in Software Development.        <br /><br />
-I work at the Press Office of the Ministry of Labor, Employment and Social Security of the Province of Santa Fe, where I develop graphic, digital, and audiovisual communication materials for institutional projects.<br /><br />
-I define myself as a proactive, adaptable, and team-oriented professional, with a strong interest in continuous learning and in adding value to every project.      `,
+Desarrollador de software y diseñador de comunicación visual, con foco en desarrollo web y diseño multimedia.<br /><br />
+Formación universitaria en Diseño de Comunicación Visual (FADU–UNL) y actualmente en etapa final de la Tecnicatura Superior en Desarrollo de Software.    <br /><br />
+Trabajo en la Oficina de Prensa del Ministerio de Trabajo, Empleo y Seguridad Social de la Provincia de Santa Fe, donde desarrollo contenidos y piezas de comunicación gráfica, digital y audiovisual para proyectos institucionales.
+<br /><br />
+Me defino como una persona proactiva, adaptable y orientada al trabajo en equipo, con interés en el aprendizaje continuo y en aportar valor a cada proyecto.   `,
         },
         experience: {
             academic: "ACADÉMICA",
@@ -80,16 +81,13 @@ I define myself as a proactive, adaptable, and team-oriented professional, with 
         },
         profile: {
             description: `
-        Software developer and visual communication designer, focused on web development and multimedia design.
-        <br /><br />
-        Trained in Visual Communication Design (FADU-UNL) with continuous education in web development and programming.
-        Currently pursuing a Higher Technical Degree in Software Development.
-        <br /><br />
-        I work at the Ministry of Labor of Santa Fe, participating in the design and production of graphic, digital,
-        and audiovisual content, as well as institutional publications.
-        <br /><br />
-        I define myself as proactive, adaptable, and team-oriented, with a constant interest in learning and
-        contributing value to every project.
+Software Developer and Visual Communication Designer, with a focus on web development and multimedia design.
+<br /><br />
+I have a university background in Visual Communication Design (FADU–UNL) and I am currently in the final stage of a Higher Technical Degree in Software Development.    
+    <br /><br />
+I work at the Press Office of the Ministry of Labor, Employment and Social Security of the Province of Santa Fe, where I develop graphic, digital, and audiovisual communication materials for institutional projects.
+<br /><br />
+I define myself as a proactive, adaptable, and team-oriented professional, with a strong interest in continuous learning and in adding value to every project.   
       `,
         },
         experience: {

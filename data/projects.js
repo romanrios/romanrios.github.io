@@ -20,7 +20,7 @@ export const projects = [
     rolesKey: "projects.roles.design_dev_music",
     media: {
       type: "iframe",
-      src: "https://www.youtube.com/embed/9y86AfY1hWs",
+      src: "https://www.youtube.com/embed/9y86AfY1hWs?rel=0&modestbranding=1",
       ratio: "56.25%",
     },
     title: "Santa Fe Rock Quiz",
@@ -36,7 +36,7 @@ export const projects = [
     rolesKey: "projects.roles.design_dev_music",
     media: {
       type: "iframe",
-      src: "https://www.youtube.com/embed/cUuI7QVixP4",
+      src: "https://www.youtube.com/embed/cUuI7QVixP4?rel=0&modestbranding=1",
       ratio: "56.25%",
     },
     title: "SP4C3 W4RS",
@@ -68,7 +68,7 @@ export const projects = [
     rolesKey: "projects.roles.design_dev_music",
     media: {
       type: "iframe",
-      src: "https://www.youtube.com/embed/GAF9Zqk4bRw",
+      src: "https://www.youtube.com/embed/GAF9Zqk4bRw?rel=0&modestbranding=1",
       ratio: "56.25%",
     },
     title: "Mostri Maker",
@@ -111,7 +111,7 @@ export const projects = [
     rolesKey: "projects.roles.dev",
     media: {
       type: "iframe",
-      src: "https://www.youtube.com/embed/k-l97QXpw4Q",
+      src: "https://www.youtube.com/embed/k-l97QXpw4Q?rel=0&modestbranding=1",
       ratio: "56.25%",
     },
     title: "React To-Do List",

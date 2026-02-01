@@ -4,7 +4,7 @@ import { renderHero } from "./components/Hero.js";
 import { renderProfile } from "./components/Profile.js";
 import { renderExperience } from "./components/Experience.js";
 import { renderSkills } from "./components/Skills.js";
-import { renderProjects } from "./components/Projects.js";
+// import { renderProjects } from "./components/Projects.js";
 
 function renderApp() {
   document.querySelector("#navbar").innerHTML = renderNavbar();
@@ -12,11 +12,9 @@ function renderApp() {
   document.querySelector("#profile").innerHTML = renderProfile();
   document.querySelector("#experience").innerHTML = renderExperience();
   document.querySelector("#skills").innerHTML = renderSkills();
-  // document.querySelector("#projects").innerHTML = renderProjects();
 
   initNavbarEvents();
 }
-
 
 // Navbar events
 function initNavbarEvents() {
@@ -34,12 +32,6 @@ function initNavbarEvents() {
     });
   });
 
-  window.addEventListener("resize", () => {
-    if (window.innerWidth > 858) {
-      menu.classList.remove("is-open", "is-animated");
-    }
-  });
-
   // botones idioma
   document.querySelectorAll(".nav__lang-btn").forEach(btn => {
     btn.addEventListener("click", () => {
@@ -49,5 +41,14 @@ function initNavbarEvents() {
   });
 }
 
+// resize solo una vez
+window.addEventListener("resize", () => {
+  const menu = document.querySelector(".nav__menu");
+  if (!menu) return;
+
+  if (window.innerWidth > 858) {
+    menu.classList.remove("is-open", "is-animated");
+  }
+});
 
 renderApp();

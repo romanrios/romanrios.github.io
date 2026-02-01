@@ -1,13 +1,5 @@
 export const translations = {
     es: {
-        nav: {
-            home: "Inicio",
-            experience: "Experiencia",
-            skills: "Habilidades",
-            projects: "Portfolio",
-            downloads: "Descargas",
-            contact: "Contacto",
-        },
 
         projects: {
             title: "Portfolio",
@@ -41,14 +33,7 @@ export const translations = {
     // ******************************************************
 
     en: {
-        nav: {
-            home: "Home",
-            experience: "Experience",
-            skills: "Skills",
-            projects: "Portfolio",
-            downloads: "Downloads",
-            contact: "Contact",
-        },
+
 
 
         projects: {

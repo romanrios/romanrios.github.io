@@ -14,17 +14,10 @@ export const translations = {
         },
         profile: {
             description: `
-        Desarrollador de software y diseñador de comunicación visual, con foco en desarrollo web y diseño multimedia.
-        <br /><br />
-        Formación en Diseño de Comunicación Visual (FADU-UNL) y capacitación continua en desarrollo web y programación.
-        Actualmente curso la Tecnicatura Superior en Desarrollo de Software.
-        <br /><br />
-        Trabajo en el Ministerio de Trabajo de Santa Fe, donde participo en el diseño y la producción de contenidos
-        gráficos, digitales y audiovisuales, así como en la elaboración de documentos y publicaciones institucionales.
-        <br /><br />
-        Me caracterizo por ser proactivo, adaptable y orientado al trabajo en equipo, con interés constante en aprender
-        y aportar valor a cada proyecto.
-      `,
+Software Developer and Visual Communication Designer, with a focus on web development and multimedia design.       <br /><br />
+I have a university background in Visual Communication Design (FADU–UNL) and I am currently in the final stage of a Higher Technical Degree in Software Development.        <br /><br />
+I work at the Press Office of the Ministry of Labor, Employment and Social Security of the Province of Santa Fe, where I develop graphic, digital, and audiovisual communication materials for institutional projects.<br /><br />
+I define myself as a proactive, adaptable, and team-oriented professional, with a strong interest in continuous learning and in adding value to every project.      `,
         },
         experience: {
             academic: "ACADÉMICA",
@@ -67,9 +60,9 @@ export const translations = {
         },
 
         period: {
-            current_2024: "2024 ~ Presente",
-            current_2018: "2018 ~ Presente",
-            thesis_pending: "2005 ~ Tesina pendiente",
+            current_2024: "2024 ~ presente",
+            current_2018: "2018 ~ presente",
+            thesis_pending: "2005 ~ presente (tesina)",
         },
     },
 
@@ -140,9 +133,9 @@ export const translations = {
         },
 
         period: {
-            current_2024: "2024 ~ Present",
-            current_2018: "2018 ~ Present",
-            thesis_pending: "2005 ~ Thesis pending",
+            current_2024: "2024 ~ present",
+            current_2018: "2018 ~ present",
+            thesis_pending: "2005 ~ present (thesis)",
         },
 
     },

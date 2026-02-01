@@ -212,15 +212,15 @@ export const elements_innerHTML = {
     es: "Magazine digital sobre diseño y tecnología",
   },
   proyecto_wesound: {
-    en: "Magazine digital sobre diseño y tecnología",
-    es: "Social network for collab music production",
+    en: "Social network for collab music production",
+    es: "Red social de producción musical colaborativa",
   },
   proyecto_pirogram: {
-    en: "Social network for collab music production",
+    en: "Visual identity for design studio",
     es: "Identidad visual para estudio de diseño",
   },
   proyecto_seal: {
-    en: "Visual identity for design studio",
+    en: "Identity, prints and web",
     es: "Identidad, impresos y web",
   },
   proyecto_bienal: {

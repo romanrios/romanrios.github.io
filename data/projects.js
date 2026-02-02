@@ -21,8 +21,8 @@ export const projects = [
     title: "Pino en el Molino",
 
     description: {
-      es: "Platform game.",
-      en: "Videojuego de plataformas.",
+      es: "Videojuego de plataformas.",
+      en: "Platform game.",
     },
 
     links: [

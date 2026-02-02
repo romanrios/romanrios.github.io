@@ -1,11 +1,9 @@
-/* HABILIDADES */
-
-section#habilidades {
+.skills {
   padding-bottom: 50px;
   background: #86e0d9;
 }
 
-section#habilidades_box_container {
+.habilidades_box_container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -53,12 +51,12 @@ section#habilidades_box_container {
 }
 
 @media (min-width: 858px) {
-  section#habilidades {
+  .skills {
     min-height: 100vh;
     padding-top: 50px;
   }
 
-  section#habilidades_box_container {
+  .habilidades_box_container {
     padding-top: 50px;
   }
 }

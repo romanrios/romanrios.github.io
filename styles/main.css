@@ -1,0 +1,50 @@
+/* Components */
+@import "./components/hero.css";
+@import "./components/navbar.css";
+@import "./components/profile.css";
+@import "./components/experience.css";
+@import "./components/skills.css";
+@import "./components/projects.css";
+@import "./components/footer.css";
+@import "./components/downloads.css";
+@import "./components/contact.css";
+
+
+
+/* Variables */
+:root {
+    --color-primary: rgb(0, 90, 150);
+    --color-dark: rgb(9, 14, 19);
+    --color-accent: rgb(0, 247, 255);
+    --color-gradient1: linear-gradient(45deg,
+            var(--color-primary) 0%,
+            rgb(0, 170, 192) 80%);
+}
+
+/* Base */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+textarea, input{
+    font-family: Montserrat;
+}
+
+
+

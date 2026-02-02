@@ -1,15 +1,16 @@
 /* PROJECTS */
-section#projects {
+
+.projects {
   background-color: rgb(237, 252, 255);
   color: var(--color-primary);
 }
 
-#title_proyectos {
+.projects h2 {
   margin-bottom: 40px;
 }
 
 @media (min-width: 858px) {
-  section#projects {
+  .projects {
     min-height: 100vh;
     padding-top: 30px;
   }
@@ -38,11 +39,16 @@ section#projects {
 .project-detail {
   width: 400px;
   margin: 15px;
+  text-wrap: pretty;
 }
 
 .project-detail img {
   width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
 }
+
+/* TARJETAS "VER MÁS" */
 
 .project_ver-mas {
   width: 400px;
@@ -80,6 +86,8 @@ section#projects {
   margin-top: -10px;
 }
 
+/* LINKS */
+
 .link {
   border-radius: 5px;
   color: var(--color-primary);
@@ -90,6 +98,7 @@ section#projects {
   font-size: small;
   font-weight: 600;
   transition: all 0.5s;
+  margin-right: 5px;
 }
 
 .link:hover {

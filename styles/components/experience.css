@@ -1,9 +1,17 @@
 /* EXPERIENCIA */
-section#experiencia {
+.exp {
   background: rgb(193, 248, 250);
 }
 
-section#timelines-container {
+.exp__title{
+  font-size: 32px;
+  color: var(--color-primary);
+  font-weight: 900;
+  text-align: center;
+  padding: 70px 0 20px 0;
+}
+
+.exp__timelines-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -11,17 +19,17 @@ section#timelines-container {
 }
 
 /* Timeline Container */
-.timeline {
+.exp__timeline {
   padding: 30px 30px 0px 30px;
 }
 
 /* Outer Layer with the timeline border */
-.outer {
+.exp__outer {
   border-left: 2px solid var(--color-primary);
 }
 
 /* Card container */
-.card {
+.exp__card {
   position: relative;
   margin: 0 0 20px 20px;
   padding: 10px;
@@ -30,7 +38,7 @@ section#timelines-container {
 }
 
 /* Information about the timeline */
-.info {
+.exp__info {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -39,14 +47,14 @@ section#timelines-container {
 }
 
 /* Card title */
-.title {
+.exp__card-title {
   color: var(--color-primary);
   position: relative;
   font-weight: 900;
 }
 
 /* Timeline dot  */
-.title::before {
+.exp__card-title::before {
   content: "";
   position: absolute;
   width: 10px;
@@ -57,20 +65,21 @@ section#timelines-container {
   border: 3px solid var(--color-primary);
 }
 
-.anio {
+.exp__anio {
   font-size: 13px;
   color: var(--color-primary);
   letter-spacing: 1px;
 }
 
-.timeline_top_title {
+.exp__timeline_top_title {
   color: var(--color-primary);
   padding: 10px 0 15px 0;
   font-size: 18px;
   letter-spacing: 1.5px;
   font-family: "Comfortaa", sans-serif;
+  text-transform: uppercase;
 }
 
-.timeline_top_title:hover {
+.exp__timeline_top_title:hover {
   font-weight: 700;
 }

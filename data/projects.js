@@ -284,7 +284,7 @@ export const projects = [
     media: {
       type: "image",
       src: "https://raw.githubusercontent.com/romanrios/oracle-next-education/refs/heads/main/challenge-aluraflix/mockup.png",
-      link: "https://github.com/romanrios/oracle-next-education/",
+      link: "https://github.com/romanrios/oracle-next-education/tree/main/challenge-aluraflix",
     },
 
     title: "Romanflix",

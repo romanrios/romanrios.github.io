@@ -259,6 +259,7 @@ export const projects = [
     media: {
       type: "image",
       src: "assets/images/funkoshop.jpg",
+      link: "https://github.com/romanrios/challenge_integrador",
     },
 
     title: "Funkoshop",
@@ -367,6 +368,7 @@ export const projects = [
     media: {
       type: "image",
       src: "assets/images/proyecto3.webp",
+      link: "https://www.behance.net/gallery/152762299/Pirogram-Identidad-para-estudio-de-diseno",
     },
 
     title: "Pirogram",
@@ -393,6 +395,7 @@ export const projects = [
     media: {
       type: "image",
       src: "assets/images/seal.png",
+      link: "https://www.behance.net/gallery/62268697/Seal-Innovation-Sellos-hidraulicos-y-neumaticos",
     },
 
     title: "Seal Innovation",

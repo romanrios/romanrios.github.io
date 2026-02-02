@@ -5,6 +5,10 @@
 @import "./components/experience.css";
 @import "./components/skills.css";
 @import "./components/projects.css";
+@import "./components/footer.css";
+@import "./components/downloads.css";
+@import "./components/contact.css";
+
 
 
 /* Variables */
@@ -24,6 +28,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Montserrat", sans-serif;
     line-height: 1.5;
@@ -34,8 +42,8 @@ a {
     color: inherit;
 }
 
-html {
-    scroll-behavior: smooth;
+textarea, input{
+    font-family: Montserrat;
 }
 
 

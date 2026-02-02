@@ -2,12 +2,15 @@
 import { translate } from "./i18n.js";
 
 import { setLanguage } from "./lang.js";
-import { renderNavbar } from "./components/Navbar.js";
-import { renderHero } from "./components/Hero.js";
-import { renderProfile } from "./components/Profile.js";
-import { renderExperience } from "./components/Experience.js";
-import { renderSkills } from "./components/Skills.js";
-// import { renderProjects } from "./components/Projects.js";
+import { renderNavbar } from "../components/Navbar.js";
+import { renderHero } from "../components/Hero.js";
+import { renderProfile } from "../components/Profile.js";
+import { renderExperience } from "../components/Experience.js";
+import { renderSkills } from "../components/Skills.js";
+import { renderProjects } from "../components/Projects.js";
+import { renderDownloads } from "../components/Downloads.js";
+import { renderContact } from "../components/Contact.js";
+import { renderFooter } from "../components/Footer.js";
 
 function renderApp() {
   document.querySelector("#navbar").innerHTML = renderNavbar();
@@ -15,6 +18,12 @@ function renderApp() {
   document.querySelector("#profile").innerHTML = renderProfile();
   document.querySelector("#experience").innerHTML = renderExperience();
   document.querySelector("#skills").innerHTML = renderSkills();
+  document.querySelector("#projects").innerHTML = renderProjects();
+  document.querySelector("#footer").innerHTML = renderFooter();
+  document.querySelector("#downloads").innerHTML = renderDownloads();
+  document.querySelector("#contact").innerHTML = renderContact();
+
+
 
   translate();
   initNavbarEvents();

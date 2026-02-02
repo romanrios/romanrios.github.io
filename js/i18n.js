@@ -1,9 +1,11 @@
 import { getLanguage } from "./lang.js";
-import { experience, experienceMeta } from "./data/experience.js";
-import { heroProfile } from "./data/heroProfile.js";
-import { skills } from "./data/skills.js";
-import { projects } from "./data/projects.js";
-import { navbar } from "./data/navbar.js";
+import { experience, experienceMeta } from "../data/experience.js";
+import { heroProfile } from "../data/heroProfile.js";
+import { skills, skillsMeta } from "../data/skills.js";
+import { projects, projectsMeta } from "../data/projects.js";
+import { navbar } from "../data/navbar.js";
+import { downloads } from "../data/downloads.js";
+import { contact } from "../data/contact.js";
 
 
 const dict = {
@@ -12,7 +14,11 @@ const dict = {
     experienceMeta,
     heroProfile,
     skills,
-    projects
+    skillsMeta,
+    projects,
+    projectsMeta,
+    downloads,
+    contact,
 };
 
 function resolve(path, lang) {

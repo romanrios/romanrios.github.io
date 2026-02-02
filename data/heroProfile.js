@@ -28,7 +28,7 @@ Me defino como una persona proactiva, adaptable y orientada al trabajo en equipo
             en: `
 Software Developer and Visual Communication Designer, with a focus on web development and multimedia design.<br /><br />
 I have a university background in Visual Communication Design (FADU–UNL) and I am currently in the final stage of a Higher Technical Degree in Software Development.<br /><br />
-I work at the Press Office of the Ministry of Labor, Employment and Social Security of the Province of Santa Fe, where I develop graphic, digital, and audiovisual communication materials for institutional projects.
+I work at the Press Office of the Ministry of Labor, Employment and Social Security of the Province of Santa Fe, Argentina, where I develop graphic, digital, and audiovisual communication materials for institutional projects.
 <br /><br />
 I define myself as a proactive, adaptable, and team-oriented professional, with a strong interest in continuous learning and in adding value to every project.
       `,

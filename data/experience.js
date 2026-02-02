@@ -45,7 +45,7 @@ export const experience = {
 
       description: {
         es: "Licenciatura en Diseño de Comunicación Visual. Carrera de grado. Facultad de Arquitectura, Diseño y Urbanismo.",
-        en: "Bachelor’s Degree in Visual Communication Design. Undergraduate program at the Faculty of Architecture, Design and Urbanism.",
+        en: "Bachelor in Visual Communication Design. University Degree. Facultad de Arquitectura, Diseño y Urbanismo.",
       },
 
       period: {
@@ -85,8 +85,8 @@ export const experience = {
       },
 
       period: {
-        es: "2018 ~ Presente",
-        en: "2018 ~ Present",
+        es: "2018 ~ 2024",
+        en: "2018 ~ 2024",
       },
     },
 

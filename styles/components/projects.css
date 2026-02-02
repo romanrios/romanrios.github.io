@@ -39,10 +39,13 @@
 .project-detail {
   width: 400px;
   margin: 15px;
+  text-wrap: pretty;
 }
 
 .project-detail img {
   width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
 }
 
 /* TARJETAS "VER MÁS" */

@@ -1,36 +1,49 @@
-import { skills, skillsMeta } from "../data/skills.js";
-import { getLanguage } from "../lang.js";
+import { skills } from "../data/skills.js";
 
-function renderTag(item, lang) {
-  const label = typeof item === "string" ? item : item[lang];
-  return `<p class="tag">${label}</p>`;
+function renderTag(item, path) {
+  // item fijo (string)
+  if (typeof item === "string") {
+    return `<p class="tag">${item}</p>`;
+  }
+
+  // item traducible
+  return `
+    <p
+      class="tag"
+      data-i18n="${path}"
+    ></p>
+  `;
 }
 
-function renderCategory(category, lang) {
+function renderCategory(category, index) {
   return `
     <div class="habilidades_box_">
-      <h3 class="hab_box_title">
-        ${category.title[lang]}
-      </h3>
+      <h3
+        class="hab_box_title"
+        data-i18n="skills.${index}.title"
+      ></h3>
 
       <div class="habilidades_box">
-        ${category.items.map(item => renderTag(item, lang)).join("")}
+        ${category.items
+      .map((item, i) =>
+        renderTag(item, `skills.${index}.items.${i}`)
+      )
+      .join("")}
       </div>
     </div>
   `;
 }
 
 export function renderSkills() {
-  const lang = getLanguage();
-
   return `
     <section class="skills">
-      <h2 class="exp__title">
-        ${skillsMeta.sectionTitle[lang]}
-      </h2>
+      <h2
+        class="exp__title"
+        data-i18n="skillsMeta.sectionTitle"
+      ></h2>
 
       <section class="habilidades_box_container">
-        ${skills.map(cat => renderCategory(cat, lang)).join("")}
+        ${skills.map((cat, i) => renderCategory(cat, i)).join("")}
       </section>
     </section>
   `;

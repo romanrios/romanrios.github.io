@@ -49,8 +49,8 @@ export const experience = {
       },
 
       period: {
-        es: "2005 ~ Tesina pendiente",
-        en: "2005 ~ Thesis pending",
+        es: "2005 ~ tesina pendiente",
+        en: "2005 ~ thesis pending",
       },
     },
   ],
@@ -68,8 +68,8 @@ export const experience = {
       },
 
       period: {
-        es: "2024 ~ Presente",
-        en: "2024 ~ Present",
+        es: "2024 ~ presente",
+        en: "2024 ~ present",
       },
     },
 

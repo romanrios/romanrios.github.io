@@ -48,6 +48,7 @@ export const skills = [
       "Git / GitHub",
       "MySQL",
       "Firebase",
+      "MongoDB",
       "PHP",
       "Python",
       "C#",

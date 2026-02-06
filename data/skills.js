@@ -69,7 +69,7 @@ export const skills = [
       { es: "Comunicación efectiva", en: "Effective communication" },
       { es: "Adaptabilidad", en: "Adaptability" },
       { es: "Música original", en: "Original music" },
-      { es: "Instrumentos virtuales VST", en: "Virtual instruments VST" },
+      { es: "Instrumentos VST", en: "VST instruments" },
       "MIDI",
       "Adobe Audition",
       "FL Studio",

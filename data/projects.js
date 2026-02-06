@@ -257,7 +257,7 @@ export const projects = {
 
       links: [
         { label: "GitHub", url: "https://github.com/romanrios/challenge_integrador" },
-        { label: "Vercel", url: "https://romanrios-funkoshop.vercel.app/home" },
+        /*  { label: "Vercel", url: "https://romanrios-funkoshop.vercel.app/home" },*/
       ],
     },
 
@@ -313,6 +313,26 @@ export const projects = {
   ],
 
   design: [
+
+    {
+      roles: { es: "Diseño", en: "Design" },
+
+      media: {
+        type: "image",
+        src: "assets/images/SF.png",
+        link: "",
+      },
+
+      title: "Santa Fe Provincia - MTEySS",
+
+      description: {
+        es: "Proyectos varios (próximamente).",
+        en: "Various projects (coming soon).",
+      },
+
+      links: [/*{ label: "Behance", url: "" }*/],
+    },
+
     {
       roles: { es: "Diseño", en: "Design" },
 

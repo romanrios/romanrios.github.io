@@ -7,7 +7,6 @@ import { navbar } from "../data/navbar.js";
 import { downloads } from "../data/downloads.js";
 import { contact } from "../data/contact.js";
 
-
 const dict = {
     navbar,
     experience,

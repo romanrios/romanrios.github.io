@@ -51,9 +51,10 @@
 .projects-section__title{
   text-align: center;
   font-family: Comfortaa;
+  font-size: large;
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin: 25px 0;
+  margin: 50px 0 20px;
 }
 
 .project-media {

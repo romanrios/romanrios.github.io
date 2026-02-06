@@ -1,4 +1,3 @@
-
 import { translate } from "./i18n.js";
 
 import { setLanguage } from "./lang.js";
@@ -22,8 +21,6 @@ function renderApp() {
   document.querySelector("#footer").innerHTML = renderFooter();
   document.querySelector("#downloads").innerHTML = renderDownloads();
   document.querySelector("#contact").innerHTML = renderContact();
-
-
 
   translate();
   initNavbarEvents();

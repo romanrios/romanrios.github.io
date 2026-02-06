@@ -15,11 +15,11 @@ function renderMedia(media) {
   }
 
   if (media.type === "image") {
-    return `
-      <a href="${media.link ?? "#"}" target="_blank">
-        <img src="${media.src}" loading="lazy" />
-      </a>
-    `;
+    const img = `<img src="${media.src}" loading="lazy" />`;
+
+    return media.link
+      ? `<a href="${media.link}" target="_blank">${img}</a>`
+      : img;
   }
 }
 
@@ -63,10 +63,10 @@ function renderSection(sectionKey, sectionProjects) {
 
       <div class="projects-list">
         ${sectionProjects
-          .map((project, index) =>
-            renderProject(project, sectionKey, index)
-          )
-          .join("")}
+      .map((project, index) =>
+        renderProject(project, sectionKey, index)
+      )
+      .join("")}
       </div>
     </div>
   `;
@@ -81,10 +81,10 @@ export function renderProjects() {
       ></h2>
 
       ${Object.entries(projects)
-        .map(([sectionKey, sectionProjects]) =>
-          renderSection(sectionKey, sectionProjects)
-        )
-        .join("")}
+      .map(([sectionKey, sectionProjects]) =>
+        renderSection(sectionKey, sectionProjects)
+      )
+      .join("")}
     </section>
   `;
 }

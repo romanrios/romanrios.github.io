@@ -119,8 +119,8 @@ export const experience = {
       },
 
       period: {
-        es: "2010 – 2018",
-        en: "2010 – 2018",
+        es: "2010 – Mar 2018",
+        en: "2010 – Mar 2018",
       },
     },
 
@@ -155,8 +155,8 @@ export const experience = {
       },
 
       period: {
-        es: "2025",
-        en: "2025",
+        es: "Jul 2025 – Sep 2025",
+        en: "Jul 2025 – Sep 2025",
       },
     },
     {
@@ -205,8 +205,8 @@ export const experience = {
       },
 
       period: {
-        es: "2023",
-        en: "2023",
+        es: "Oct 2023 – Dic 2023",
+        en: "Oct 2023 – Dec 2023",
       },
     },
 
@@ -222,8 +222,8 @@ export const experience = {
       },
 
       period: {
-        es: "2023",
-        en: "2023",
+        es: "Jun 2023 – Oct 2023",
+        en: "Jun 2023 – Oct 2023",
       },
     },
 

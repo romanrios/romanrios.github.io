@@ -44,8 +44,8 @@ export const experience = {
       },
 
       description: {
-        es: "Licenciatura en Diseño de Comunicación Visual. Carrera de grado. Facultad de Arquitectura, Diseño y Urbanismo.",
-        en: "Bachelor in Visual Communication Design. University Degree. Facultad de Arquitectura, Diseño y Urbanismo.",
+        es: "Licenciatura en Diseño de Comunicación Visual · Carrera de grado · Facultad de Arquitectura, Diseño y Urbanismo",
+        en: "Bachelor in Visual Communication Design · University Degree · Facultad de Arquitectura, Diseño y Urbanismo",
       },
 
       period: {
@@ -63,8 +63,8 @@ export const experience = {
       },
 
       description: {
-        es: "Pasantía de Diseño de Comunicación Visual.",
-        en: "Visual Communication Design Internship.",
+        es: "Pasantía de Diseño de Comunicación Visual",
+        en: "Visual Communication Design Internship",
       },
 
       period: {
@@ -80,8 +80,8 @@ export const experience = {
       },
 
       description: {
-        es: "Desarrollo de software y diseño multimedia.",
-        en: "Software development and multimedia design.",
+        es: "Desarrollo de software y diseño multimedia",
+        en: "Software development and multimedia design",
       },
 
       period: {
@@ -92,13 +92,13 @@ export const experience = {
 
     {
       title: {
-        es: "Seal Innovation S.A.",
-        en: "Seal Innovation S.A.",
+        es: "Seal Innovation SA",
+        en: "Seal Innovation SA",
       },
 
       description: {
-        es: "Administración y facturación en industria de productos plásticos.",
-        en: "Administration and invoicing in the plastic products industry.",
+        es: "Administración y facturación en industria de productos plásticos",
+        en: "Administration and invoicing in the plastic products industry",
       },
 
       period: {
@@ -114,8 +114,8 @@ export const experience = {
       },
 
       description: {
-        es: "Diseño gráfico y multimedia.",
-        en: "Graphic and multimedia design.",
+        es: "Diseño gráfico y multimedia",
+        en: "Graphic and multimedia design",
       },
 
       period: {
@@ -131,8 +131,8 @@ export const experience = {
       },
 
       description: {
-        es: "Ventas y servicio técnico de videojuegos e informática.",
-        en: "Sales and technical service for video games and computer equipment.",
+        es: "Ventas y servicio técnico de videojuegos e informática",
+        en: "Sales and technical service for video games and computer equipment",
       },
 
       period: {
@@ -268,8 +268,8 @@ export const experience = {
       },
 
       description: {
-        es: "Motion Graphics Design: Del diseño gráfico al diseño en movimiento.",
-        en: "Motion Graphics Design: From graphic design to motion design.",
+        es: "Motion Graphics Design: Del diseño gráfico al diseño en movimiento",
+        en: "Motion Graphics Design: From graphic design to motion design",
       },
 
       period: {

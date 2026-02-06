@@ -12,8 +12,8 @@ export const navbar = {
     en: "Skills",
   },
   projects: {
-    es: "Portfolio",
-    en: "Portfolio",
+    es: "Proyectos",
+    en: "Projects",
   },
   downloads: {
     es: "Descargas",

@@ -48,6 +48,30 @@
   object-fit: cover;
 }
 
+.projects-section__title{
+  text-align: center;
+  font-family: Comfortaa;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 25px 0;
+}
+
+.project-media {
+  position: relative;
+  margin-bottom: 7px;
+  background: #000;
+  overflow: hidden;
+}
+
+.project-media iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
 /* TARJETAS "VER MÁS" */
 
 .project_ver-mas {

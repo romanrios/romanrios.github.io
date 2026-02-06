@@ -1,13 +1,12 @@
-import { projects } from "../data/projects.js";
+import { projects, projectsMeta } from "../data/projects.js";
 
 function renderMedia(media) {
   if (media.type === "iframe") {
     return `
-      <div style="padding:${media.ratio} 0 0 0; position:relative; margin-bottom:7px;">
+      <div class="project-media" style="padding:${media.ratio} 0 0 0;">
         <iframe
           src="${media.src}"
           loading="lazy"
-          style="position:absolute;top:0;left:0;width:100%;height:100%;"
           frameborder="0"
           allowfullscreen>
         </iframe>
@@ -33,12 +32,12 @@ function renderLinks(links) {
     .join("");
 }
 
-function renderProject(project, index) {
+function renderProject(project, sectionKey, index) {
   return `
     <div class="project-detail">
       <p
         class="project-header"
-        data-i18n="projects.${index}.roles"
+        data-i18n="projects.${sectionKey}.${index}.roles"
       ></p>
 
       ${renderMedia(project.media)}
@@ -46,10 +45,29 @@ function renderProject(project, index) {
       <h3>${project.title}</h3>
 
       <p
-        data-i18n="projects.${index}.description"
+        data-i18n="projects.${sectionKey}.${index}.description"
       ></p>
 
       ${renderLinks(project.links)}
+    </div>
+  `;
+}
+
+function renderSection(sectionKey, sectionProjects) {
+  return `
+    <div class="projects-section">
+      <h3
+        class="projects-section__title"
+        data-i18n="projectsMeta.sections.${sectionKey}"
+      ></h3>
+
+      <div class="projects-list">
+        ${sectionProjects
+          .map((project, index) =>
+            renderProject(project, sectionKey, index)
+          )
+          .join("")}
+      </div>
     </div>
   `;
 }
@@ -62,9 +80,11 @@ export function renderProjects() {
         data-i18n="projectsMeta.sectionTitle"
       ></h2>
 
-      <div class="projects-list">
-        ${projects.map(renderProject).join("")}
-      </div>
+      ${Object.entries(projects)
+        .map(([sectionKey, sectionProjects]) =>
+          renderSection(sectionKey, sectionProjects)
+        )
+        .join("")}
     </section>
   `;
 }

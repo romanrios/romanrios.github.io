@@ -32,8 +32,8 @@ export const experience = {
       },
 
       period: {
-        es: "2024 ~ 2026",
-        en: "2024 ~ 2026",
+        es: "2024 – 2026",
+        en: "2024 – 2026",
       },
     },
 
@@ -49,8 +49,8 @@ export const experience = {
       },
 
       period: {
-        es: "2005 ~ Tesina pendiente",
-        en: "2005 ~ Thesis pending",
+        es: "2005 – Tesina pendiente",
+        en: "2005 – Thesis pending",
       },
     },
   ],
@@ -68,8 +68,8 @@ export const experience = {
       },
 
       period: {
-        es: "2024 ~ Presente",
-        en: "2024 ~ Present",
+        es: "Sep 2024 – Presente",
+        en: "Sep 2024 – Present",
       },
     },
 
@@ -80,13 +80,13 @@ export const experience = {
       },
 
       description: {
-        es: "Desarrollo de software y diseño multimedial.",
+        es: "Desarrollo de software y diseño multimedia.",
         en: "Software development and multimedia design.",
       },
 
       period: {
-        es: "2018 ~ 2024",
-        en: "2018 ~ 2024",
+        es: "2018 – 2024",
+        en: "2018 – 2024",
       },
     },
 
@@ -102,8 +102,8 @@ export const experience = {
       },
 
       period: {
-        es: "2018 ~ 2022",
-        en: "2018 ~ 2022",
+        es: "Mar 2018 – Sep 2022",
+        en: "Mar 2018 – Sep 2022",
       },
     },
 
@@ -114,13 +114,13 @@ export const experience = {
       },
 
       description: {
-        es: "Diseño multimedial independiente.",
-        en: "Independent multimedia design.",
+        es: "Diseño gráfico y multimedia.",
+        en: "Graphic and multimedia design.",
       },
 
       period: {
-        es: "2010 ~ 2018",
-        en: "2010 ~ 2018",
+        es: "2010 – 2018",
+        en: "2010 – 2018",
       },
     },
 
@@ -136,8 +136,8 @@ export const experience = {
       },
 
       period: {
-        es: "2011 ~ 2018",
-        en: "2011 ~ 2018",
+        es: "2011 – Mar 2018",
+        en: "2011 – Mar 2018",
       },
     },
   ],
@@ -145,18 +145,34 @@ export const experience = {
   courses: [
     {
       title: {
+        es: "Amazon Web Services",
+        en: "Amazon Web Services",
+      },
+
+      description: {
+        es: "AWS Academy Cloud Foundations",
+        en: "AWS Academy Cloud Foundations",
+      },
+
+      period: {
+        es: "2025",
+        en: "2025",
+      },
+    },
+    {
+      title: {
         es: "Oracle Next Education / Alura",
         en: "Oracle Next Education / Alura",
       },
 
       description: {
-        es: "Programa de formación con especialización Front-end",
-        en: "Training program with Front-end specialization",
+        es: "■ Front-end con JavaScript, HTML y CSS<br>■ React y desarrollo de SPA<br>■ Git, APIs REST y trabajo colaborativo",
+        en: "■ Front-end with JavaScript, HTML and CSS<br>■ React and SPA development<br>■ Git, REST APIs and collaborative work",
       },
 
       period: {
-        es: "2024 ~ 2025",
-        en: "2024 ~ 2025",
+        es: "2024 – 2025",
+        en: "2024 – 2025",
       },
     },
 
@@ -167,13 +183,13 @@ export const experience = {
       },
 
       description: {
-        es: "■ Curso de especialización React JS<br>■ Curso de Habilidades Blandas<br>■ Full Stack Desarrollo Web - Node.js",
-        en: "■ React JS specialization course<br>■ Soft Skills course<br>■ Full Stack Web Development – Node.js",
+        es: "■ Desarrollo Full-stack con Node.js<br>■ Especialización React JS<br>■ Trabajo colaborativo y habilidades blandas",
+        en: "■ Full-stack development with Node.js<br>■ React JS specialization<br>■ Collaborative work and soft skills",
       },
 
       period: {
-        es: "2023 ~ 2024",
-        en: "2023 ~ 2024",
+        es: "2023 – 2024",
+        en: "2023 – 2024",
       },
     },
 
@@ -218,13 +234,13 @@ export const experience = {
       },
 
       description: {
-        es: "■ Curso #SeProgramar (INTI)<br>■ Desarrollo Front-end (Ticmas)<br>■ Desarrollo de aplicaciones Android (Ticmas)<br>■ Desarrollo Front-end (Educado en Argentina)<br>■ Inglés Nivel 8 B1.2 MCER (CUI-UBA)",
-        en: "■ #SeProgramar course (INTI)<br>■ Front-end Development (Ticmas)<br>■ Android App Development (Ticmas)<br>■ Front-end Development (Educado en Argentina)<br>■ English Level 8 B1.2 CEFR (CUI-UBA)",
+        es: "■ #SeProgramar – Fundamentos de programación (INTI)<br>■ Desarrollo Front-end (Ticmas / Educado en Argentina)<br>■ Desarrollo de aplicaciones Android (Ticmas)<br>■ Inglés Nivel 8 B1.2 MCER (CUI-UBA)",
+        en: "■ #SeProgramar – Programming fundamentals (INTI)<br>■ Front-end Development (Ticmas / Educado en Argentina)<br>■ Android App Development (Ticmas)<br>■ English Level 8 B1.2 CEFR (CUI-UBA)",
       },
 
       period: {
-        es: "2022 ~ 2023",
-        en: "2022 ~ 2023",
+        es: "2022 – 2023",
+        en: "2022 – 2023",
       },
     },
 
@@ -235,13 +251,13 @@ export const experience = {
       },
 
       description: {
-        es: "■ JavaScript Essentials 1<br>■ Python Essentials 1<br>■ English for IT 1",
-        en: "■ JavaScript Essentials 1<br>■ Python Essentials 1<br>■ English for IT 1",
+        es: "■ JavaScript Essentials<br>■ Python Essentials<br>■ English for IT",
+        en: "■ JavaScript Essentials<br>■ Python Essentials<br>■ English for IT",
       },
 
       period: {
-        es: "2022 ~ 2023",
-        en: "2022 ~ 2023",
+        es: "2022 – 2023",
+        en: "2022 – 2023",
       },
     },
 
@@ -257,8 +273,8 @@ export const experience = {
       },
 
       period: {
-        es: "2012",
-        en: "2012",
+        es: "May 2012 – Jun 2012",
+        en: "May 2012 – Jun 2012",
       },
     },
   ],

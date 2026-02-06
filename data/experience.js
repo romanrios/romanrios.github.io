@@ -132,7 +132,7 @@ export const experience = {
 
       description: {
         es: "Ventas y servicio técnico de videojuegos e informática",
-        en: "Sales and technical service for video games and computer equipment",
+        en: "Sales and technical support for video games and computer equipment",
       },
 
       period: {

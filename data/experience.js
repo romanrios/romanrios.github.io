@@ -218,7 +218,7 @@ export const experience = {
 
       description: {
         es: "Desarrollo de videojuegos con Pixi.JS",
-        en: "Video game development with Pixi.JS",
+        en: "Game development with Pixi.JS",
       },
 
       period: {

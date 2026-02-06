@@ -201,7 +201,7 @@ export const experience = {
 
       description: {
         es: "Desarrollo de aplicaciones con React y React Native",
-        en: "Development of applications with React and React Native",
+        en: "Application development with React and React Native",
       },
 
       period: {

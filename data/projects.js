@@ -257,7 +257,7 @@ export const projects = {
 
       links: [
         { label: "GitHub", url: "https://github.com/romanrios/challenge_integrador" },
-        /*  { label: "Vercel", url: "https://romanrios-funkoshop.vercel.app/home" },*/
+        { label: "Vercel", url: "https://romanrios-funkoshop.vercel.app/home" },
       ],
     },
 

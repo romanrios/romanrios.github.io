@@ -26,7 +26,7 @@ Proactivo y adaptable, orientado al trabajo en equipo, con interés en el aprend
             en: `
 Software developer and visual communication designer, focused on web development and multimedia design.<br /><br />
 I have a university background in Visual Communication Design (FADU–UNL) and am currently completing a Higher Technical Degree in Software Development.<br /><br />
-I work at the Press Office of the Ministry of Labor, Employment and Social Security of Santa Fe Province, Argentina, designing graphic, digital, and audiovisual communication materials for institutional projects.<br /><br />
+I work at the Press Office of the Ministry of Labor, Employment and Social Security of Santa Fe Province, Argentina, designing graphic, digital and audiovisual communication materials for institutional projects.<br /><br />
 Proactive and adaptable, team-oriented, with a strong interest in continuous learning and in contributing value to every project.      `,
         },
     },

@@ -22,7 +22,7 @@ export const skills = [
       { es: "Diseño editorial", en: "Editorial design" },
       "Illustrator",
       "Photoshop",
-      "CorelDRAW",
+      "CorelDraw",
       "Figma",
       "After Effects",
       "Premiere",

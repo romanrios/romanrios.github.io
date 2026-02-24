@@ -1,20 +1,34 @@
 import { skills } from "../data/skills.js";
 
-function renderTag(item, path) {
-  // item fijo (string)
-  if (typeof item === "string") {
-    return `<p class="tag">${item}</p>`;
-  }
 
-  // item traducible
+function renderGroup(group, path) {
   return `
-    <p
-      class="tag"
-      data-i18n="${path}"
-    ></p>
+    <div class="skills_group">
+      ${group.subtitle
+      ? `
+        <h4
+          class="skills_subtitle"
+          data-i18n="${path}.subtitle"
+        ></h4>
+      `
+      : ""
+    }
+
+      <div class="habilidades_box">
+        ${group.items
+      .map(
+        (item, i) => `
+              <p
+                class="tag"
+                data-i18n="${path}.items.${i}"
+              ></p>
+            `
+      )
+      .join("")}
+      </div>
+    </div>
   `;
 }
-
 function renderCategory(category, index) {
   return `
     <div class="habilidades_box_">
@@ -23,13 +37,11 @@ function renderCategory(category, index) {
         data-i18n="skills.${index}.title"
       ></h3>
 
-      <div class="habilidades_box">
-        ${category.items
-      .map((item, i) =>
-        renderTag(item, `skills.${index}.items.${i}`)
+      ${category.groups
+      .map((group, i) =>
+        renderGroup(group, `skills.${index}.groups.${i}`)
       )
       .join("")}
-      </div>
     </div>
   `;
 }

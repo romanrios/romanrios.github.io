@@ -21,6 +21,142 @@ export const projectsMeta = {
 };
 
 export const projects = {
+
+  software: [
+    {
+      roles: { es: "Desarrollo", en: "Development" },
+
+      media: {
+        type: "image",
+        src: "https://github.com/user-attachments/assets/ed718ff2-a17e-45a6-add1-ab28f50a3bfb",
+        link: "https://github.com/romanrios/DADM-club-deportivo",
+      },
+
+      title: "Cinco Estrellas",
+
+      description: {
+        es: "Aplicación Android para club deportivo.",
+        en: "Sports club Android application.",
+      },
+
+      links: [{ label: "GitHub", url: "https://github.com/romanrios/DADM-club-deportivo" }],
+    },
+
+    {
+      roles: { es: "Desarrollo", en: "Development" },
+
+      media: {
+        type: "image",
+        src: "https://github.com/user-attachments/assets/2f2bf3af-bf7d-432b-a0cd-eb8ffe184a78",
+        link: "https://github.com/romanrios/ifts-back-tp",
+      },
+
+      title: "Sabor Urbano",
+
+      description: {
+        es: "Software de gestión web para restaurante.",
+        en: "Restaurant management web software.",
+      },
+
+      links: [
+        { label: "GitHub", url: "https://github.com/romanrios/ifts-back-tp" },
+        { label: "Render", url: "https://ifts-back-tp.onrender.com/" },
+      ],
+    },
+
+    {
+      roles: { es: "Desarrollo", en: "Development" },
+
+      media: {
+        type: "image",
+        src: "https://github.com/user-attachments/assets/f3f8abb8-7f7e-47d8-9c08-9d5f0c29e0d2",
+        link: "https://github.com/romanrios/DSOO-club-deportivo/",
+      },
+
+      title: "Sports Club",
+
+      description: {
+        es: "Software de gestión para Windows en C#.",
+        en: "Windows management software in C#.",
+      },
+
+      links: [{ label: "GitHub", url: "https://github.com/romanrios/DSOO-club-deportivo/" }],
+    },
+
+    {
+      roles: { es: "Desarrollo", en: "Development" },
+
+      media: {
+        type: "image",
+        src: "assets/images/funkoshop.jpg",
+        link: "https://github.com/romanrios/challenge_integrador",
+      },
+
+      title: "Funkoshop",
+
+      description: {
+        es: "Tienda virtual Funko Pop.",
+        en: "Funko Pop E-commerce.",
+      },
+
+      links: [
+        { label: "GitHub", url: "https://github.com/romanrios/challenge_integrador" },
+        { label: "Vercel", url: "https://romanrios-funkoshop.vercel.app/home" },
+      ],
+    },
+
+    {
+      roles: { es: "Desarrollo", en: "Development" },
+
+      media: {
+        type: "image",
+        src: "https://raw.githubusercontent.com/romanrios/oracle-next-education/refs/heads/main/challenge-aluraflix/mockup.png",
+        link: "https://github.com/romanrios/oracle-next-education/tree/main/challenge-aluraflix",
+      },
+
+      title: "Romanflix",
+
+      description: {
+        es: "Proyecto React para Alura.",
+        en: "React Project for Alura.",
+      },
+
+      links: [
+        { label: "GitHub", url: "https://github.com/romanrios/oracle-next-education/" },
+        {
+          label: "GitHub Pages",
+          url: "https://romanrios.github.io/oracle-next-education/challenge-aluraflix/dist/",
+        },
+      ],
+    },
+
+    {
+      roles: { es: "Desarrollo", en: "Development" },
+
+      media: {
+        type: "iframe",
+        src: "https://www.youtube.com/embed/k-l97QXpw4Q?rel=0&modestbranding=1",
+        ratio: "56.25%",
+      },
+
+      title: "To-Do List",
+
+      description: {
+        es: "Proyecto React para Codo a Codo.",
+        en: "React Project for Codo a Codo.",
+      },
+
+      links: [
+        { label: "GitHub", url: "https://github.com/romanrios/cac-react-grupo3/" },
+        {
+          label: "GitHub Pages",
+          url: "https://romanrios.github.io/cac-react-grupo3/ToDoMar/dist/",
+        },
+      ],
+    },
+  ],
+
+
   games: [
     {
       roles: {
@@ -178,139 +314,6 @@ export const projects = {
     },
   ],
 
-  software: [
-    {
-      roles: { es: "Desarrollo", en: "Development" },
-
-      media: {
-        type: "image",
-        src: "https://github.com/user-attachments/assets/ed718ff2-a17e-45a6-add1-ab28f50a3bfb",
-        link: "https://github.com/romanrios/DADM-club-deportivo",
-      },
-
-      title: "Cinco Estrellas",
-
-      description: {
-        es: "Aplicación Android para club deportivo.",
-        en: "Sports club Android application.",
-      },
-
-      links: [{ label: "GitHub", url: "https://github.com/romanrios/DADM-club-deportivo" }],
-    },
-
-    {
-      roles: { es: "Desarrollo", en: "Development" },
-
-      media: {
-        type: "image",
-        src: "https://github.com/user-attachments/assets/2f2bf3af-bf7d-432b-a0cd-eb8ffe184a78",
-        link: "https://github.com/romanrios/ifts-back-tp",
-      },
-
-      title: "Sabor Urbano",
-
-      description: {
-        es: "Software de gestión web para restaurante.",
-        en: "Restaurant management web software.",
-      },
-
-      links: [
-        { label: "GitHub", url: "https://github.com/romanrios/ifts-back-tp" },
-        { label: "Render", url: "https://ifts-back-tp.onrender.com/" },
-      ],
-    },
-
-    {
-      roles: { es: "Desarrollo", en: "Development" },
-
-      media: {
-        type: "image",
-        src: "https://github.com/user-attachments/assets/f3f8abb8-7f7e-47d8-9c08-9d5f0c29e0d2",
-        link: "https://github.com/romanrios/DSOO-club-deportivo/",
-      },
-
-      title: "Sports Club",
-
-      description: {
-        es: "Software de gestión para Windows en C#.",
-        en: "Windows management software in C#.",
-      },
-
-      links: [{ label: "GitHub", url: "https://github.com/romanrios/DSOO-club-deportivo/" }],
-    },
-
-    {
-      roles: { es: "Desarrollo", en: "Development" },
-
-      media: {
-        type: "image",
-        src: "assets/images/funkoshop.jpg",
-        link: "https://github.com/romanrios/challenge_integrador",
-      },
-
-      title: "Funkoshop",
-
-      description: {
-        es: "Tienda virtual Funko Pop.",
-        en: "Funko Pop E-commerce.",
-      },
-
-      links: [
-        { label: "GitHub", url: "https://github.com/romanrios/challenge_integrador" },
-        { label: "Vercel", url: "https://romanrios-funkoshop.vercel.app/home" },
-      ],
-    },
-
-    {
-      roles: { es: "Desarrollo", en: "Development" },
-
-      media: {
-        type: "image",
-        src: "https://raw.githubusercontent.com/romanrios/oracle-next-education/refs/heads/main/challenge-aluraflix/mockup.png",
-        link: "https://github.com/romanrios/oracle-next-education/tree/main/challenge-aluraflix",
-      },
-
-      title: "Romanflix",
-
-      description: {
-        es: "Proyecto React para Alura.",
-        en: "React Project for Alura.",
-      },
-
-      links: [
-        { label: "GitHub", url: "https://github.com/romanrios/oracle-next-education/" },
-        {
-          label: "GitHub Pages",
-          url: "https://romanrios.github.io/oracle-next-education/challenge-aluraflix/dist/",
-        },
-      ],
-    },
-
-    {
-      roles: { es: "Desarrollo", en: "Development" },
-
-      media: {
-        type: "iframe",
-        src: "https://www.youtube.com/embed/k-l97QXpw4Q?rel=0&modestbranding=1",
-        ratio: "56.25%",
-      },
-
-      title: "To-Do List",
-
-      description: {
-        es: "Proyecto React para Codo a Codo.",
-        en: "React Project for Codo a Codo.",
-      },
-
-      links: [
-        { label: "GitHub", url: "https://github.com/romanrios/cac-react-grupo3/" },
-        {
-          label: "GitHub Pages",
-          url: "https://romanrios.github.io/cac-react-grupo3/ToDoMar/dist/",
-        },
-      ],
-    },
-  ],
 
   design: [
 

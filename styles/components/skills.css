@@ -9,10 +9,11 @@
 
 .skills_subtitle {
   text-align: center;
-  font-size: 13px;
+  font-weight: 700;
+  font-size: 12.5px;
   letter-spacing: 1px;
   color: var(--color-primary);
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 .habilidades_box_container {
@@ -58,7 +59,7 @@
   padding: 30px 0 0 0;
   font-family: "Comfortaa";
   color: var(--color-primary);
-  font-size: 15px;
+  font-size: 17px;
   letter-spacing: 1.5px;
 }
 

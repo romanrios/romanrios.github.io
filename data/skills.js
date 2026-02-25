@@ -95,11 +95,11 @@ export const skills = [
   },
 
   // =========================
-  // CORE
+  // TRANSVERSALES 
   // =========================
   {
     title: {
-      es: "CORE",
+      es: "TRANSVERSALES",
       en: "CORE",
     },
 

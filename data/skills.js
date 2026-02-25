@@ -37,6 +37,7 @@ export const skills = [
           { es: "Firebase", en: "Firebase" },
           { es: "MongoDB", en: "MongoDB" },
         ],
+        subitems: ["Python", "PHP"],
       },
 
       {
@@ -45,10 +46,8 @@ export const skills = [
           { es: "Visual Studio", en: "Visual Studio" },
           { es: "Android Studio", en: "Android Studio" },
           { es: "PixiJS", en: "PixiJS" },
-          { es: "Unity", en: "Unity" },
-          { es: "Godot", en: "Godot" },
-          { es: "Construct", en: "Construct" },
         ],
+        subitems: ["Unity", "Godot", "Construct"],
       },
 
     ],
@@ -83,13 +82,10 @@ export const skills = [
           { es: "Adobe Illustrator", en: "Adobe Illustrator" },
           { es: "Adobe Photoshop", en: "Adobe Photoshop" },
           { es: "Adobe InDesign", en: "Adobe InDesign" },
-          { es: "CorelDRAW", en: "CorelDRAW" },
           { es: "Adobe Premiere Pro", en: "Adobe Premiere Pro" },
           { es: "Adobe After Effects", en: "Adobe After Effects" },
-          { es: "Adobe Audition", en: "Adobe Audition" },
-          { es: "FL Studio", en: "FL Studio" },
-
         ],
+        subitems: ["CorelDRAW", "Adobe Audition", "FL Studio"],
       },
     ],
   },

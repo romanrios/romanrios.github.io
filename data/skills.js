@@ -19,9 +19,9 @@ export const skills = [
       {
         subtitle: { es: "FRONTEND", en: "FRONTEND" },
         items: [
-          { es: "React", en: "React" },
           { es: "JavaScript (ES6+)", en: "JavaScript (ES6+)" },
           { es: "TypeScript", en: "TypeScript" },
+          { es: "React", en: "React" },
           { es: "HTML5", en: "HTML5" },
           { es: "CSS3", en: "CSS3" },
           { es: "Responsive Design", en: "Responsive Design" },
@@ -32,12 +32,10 @@ export const skills = [
         items: [
           { es: "Node.js", en: "Node.js" },
           { es: "Express.js", en: "Express.js" },
+          { es: "REST APIs", en: "REST APIs" },
           { es: "MySQL", en: "MySQL" },
           { es: "Firebase", en: "Firebase" },
           { es: "MongoDB", en: "MongoDB" },
-          { es: "REST APIs", en: "REST APIs" },
-          { es: "PHP", en: "PHP" },
-
         ],
       },
 
@@ -71,9 +69,9 @@ export const skills = [
         items: [
           { es: "UX/UI", en: "UX/UI" },
           { es: "Web & Apps", en: "Web & Apps" },
-          { es: "Branding", en: "Branding" },
-          { es: "Editorial", en: "Editorial" },
-          { es: "Comunicación Digital", en: "Digital Communication" },
+          { es: "Identidad Visual", en: "Identidad Visual" },
+          { es: "Diseño Editorial", en: "Diseño Editorial" },
+          { es: "Diseño de Información", en: "Diseño de Información" },
           { es: "Sistemas de Diseño", en: "Design Systems" },
           { es: "Producción Audiovisual", en: "Audiovisual Production" },
         ],
@@ -81,15 +79,16 @@ export const skills = [
       {
         subtitle: { es: "HERRAMIENTAS", en: "TOOLS" },
         items: [
-          { es: "Illustrator", en: "Illustrator" },
           { es: "Figma", en: "Figma" },
-          { es: "Photoshop", en: "Photoshop" },
-          { es: "InDesign", en: "InDesign" },
+          { es: "Adobe Illustrator", en: "Adobe Illustrator" },
+          { es: "Adobe Photoshop", en: "Adobe Photoshop" },
+          { es: "Adobe InDesign", en: "Adobe InDesign" },
           { es: "CorelDRAW", en: "CorelDRAW" },
-          { es: "Premiere Pro", en: "Premiere Pro" },
-          { es: "After Effects", en: "After Effects" },
-          { es: "Audition", en: "Audition" },
+          { es: "Adobe Premiere Pro", en: "Adobe Premiere Pro" },
+          { es: "Adobe After Effects", en: "Adobe After Effects" },
+          { es: "Adobe Audition", en: "Adobe Audition" },
           { es: "FL Studio", en: "FL Studio" },
+
         ],
       },
     ],
@@ -100,8 +99,8 @@ export const skills = [
   // =========================
   {
     title: {
-      es: "COMPETENCIAS",
-      en: "COMPETENCIES",
+      es: "TRANSVERSALES",
+      en: "CROSS-FUNCTIONAL",
     },
 
     groups: [
@@ -116,7 +115,7 @@ export const skills = [
         ],
       },
       {
-        subtitle: { es: "GESTIÓN", en: "MANAGEMENT" },
+        subtitle: { es: "WORKFLOW", en: "WORKFLOW" },
         items: [
           { es: "Git / GitHub", en: "Git / GitHub" },
           { es: "Google Workspace", en: "Google Workspace" },

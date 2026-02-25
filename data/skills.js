@@ -95,12 +95,12 @@ export const skills = [
   },
 
   // =========================
-  // COMPETENCIAS
+  // CORE
   // =========================
   {
     title: {
-      es: "TRANSVERSALES",
-      en: "CROSS-FUNCTIONAL",
+      es: "CORE",
+      en: "CORE",
     },
 
     groups: [

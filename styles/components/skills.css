@@ -53,8 +53,8 @@
   font-size: 14px;
   background-color: var(--color-primary);
   color: #fff;
-  padding: 2px 8px;
-  margin: 3px 1.5px;
+  padding: 1.5px 7px;
+  margin: 4px 1.5px;
   border-radius: 4px;
   text-align: center;
 }
@@ -64,8 +64,8 @@
   width: fit-content;
   background-color: var(--color-primary);
   color: #fff;
-  padding: 0px 5px;
-  margin: 3px 1.5px;
+  padding: 0.5px 5px;
+  margin: 4px 1.5px;
   border-radius: 3px;
   opacity: 0.85;
   letter-spacing: 0.3px;

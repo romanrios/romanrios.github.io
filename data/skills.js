@@ -107,7 +107,7 @@ export const skills = [
           { es: "Adaptabilidad", en: "Adaptability" },
           { es: "Aprendizaje continuo", en: "Continuous Learning" },
           { es: "Trabajo en equipo", en: "Teamwork" },
-          { es: "Comunicación efectiva", en: "Effective communication" },
+          { es: "Comunicación efectiva", en: "Effective Communication" },
         ],
       },
       {
@@ -117,7 +117,7 @@ export const skills = [
           { es: "Google Workspace", en: "Google Workspace" },
           { es: "Notion", en: "Notion" },
           { es: "Automatización CSV/Datasets", en: "CSV/Datasets Automation" },
-          { es: "IA aplicada al desarrollo", en: "AI-assisted development" },
+          { es: "IA aplicada al desarrollo", en: "AI-assisted Development" },
         ],
       },
     ],

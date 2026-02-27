@@ -23,6 +23,86 @@ export const projectsMeta = {
 export const projects = {
 
   software: [
+
+
+
+
+
+
+    
+
+
+    {
+      roles: { es: "Desarrollo", en: "Development" },
+
+      media: {
+        type: "image",
+        src: "assets/images/plf.png",
+        link: "https://github.com/romanrios/plf-landing",
+      },
+
+      title: "Prácticas Laborales Formativas",
+
+      description: {
+        es: "Prototipo de landing page.",
+        en: "Landing page prototype.",
+      },
+
+      links: [{ label: "GitHub", url: "https://github.com/romanrios/plf-landing" },
+      { label: "GitHub Pages", url: "https://romanrios.github.io/plf-landing/" }],
+    },
+
+
+
+
+    {
+      roles: { es: "Desarrollo", en: "Development" },
+
+      media: {
+        type: "image",
+        src: "assets/images/chatbot.png",
+        link: "https://github.com/romanrios/MTESS-chatbot-web",
+      },
+
+      title: "Chatbot MTESS",
+
+      description: {
+        es: "Prototipo de asistente virtual web.",
+        en: "Web virtual assistant prototype.",
+      },
+
+      links: [{ label: "GitHub", url: "https://github.com/romanrios/MTESS-chatbot-web" },
+      { label: "GitHub Pages", url: "https://romanrios.github.io/MTESS-chatbot-web/" }],
+    },
+
+
+
+        {
+      roles: { es: "Desarrollo", en: "Development" },
+
+      media: {
+        type: "image",
+        src: "assets/images/impulsa.png",
+        link: "https://github.com/romanrios/MTESS-Form/",
+      },
+
+      title: "Impulsa Web Form",
+
+      description: {
+        es: "Prototipo de formulario web.",
+        en: "Web form prototype.",
+      },
+
+      links: [{ label: "GitHub", url: "https://github.com/romanrios/MTESS-Form/" },
+      { label: "Vercel", url: "https://mtess-form.vercel.app/" }],
+    },
+
+
+
+
+
+
+
     {
       roles: { es: "Desarrollo", en: "Development" },
 

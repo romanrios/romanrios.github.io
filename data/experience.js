@@ -62,15 +62,31 @@ export const experience = {
         en: "Ministry of Labor, Employment and Social Security of Santa Fe Province",
       },
 
-      description: {
-        es: "Pasantía de Diseño de Comunicación Visual",
-        en: "Visual Communication Design Internship",
-      },
+      positions: [
 
-      period: {
-        es: "Sep 2024 – Presente",
-        en: "Sep 2024 – Present",
-      },
+        {
+          description: {
+            es: "■ Asistente Técnico - Diseño de Comunicación Visual",
+            en: "■ Technical Assistant - Visual Communication Design",
+          },
+          period: {
+            es: "Mar 2026 – Presente",
+            en: "Mar 2026 – Present",
+          },
+        },
+
+        {
+          description: {
+            es: "■ Pasantía - Diseño de Comunicación Visual",
+            en: "■ Internship - Visual Communication Design",
+          },
+          period: {
+            es: "Sep 2024 – Mar 2026",
+            en: "Sep 2024 – Mar 2026",
+          },
+        },
+
+      ],
     },
 
     {

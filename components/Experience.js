@@ -1,6 +1,32 @@
 import { experience } from "../data/experience.js";
 
 function renderCard(type, index) {
+  const item = experience[type][index];
+
+  if (item.positions) {
+    return `
+    <div class="exp__card">
+      <div class="exp__info">
+        <h3
+          class="exp__card-title"
+          data-i18n="experience.${type}.${index}.title"
+        ></h3>
+        ${item.positions
+          .map(
+            (_, pIndex) => `
+        <p data-i18n="experience.${type}.${index}.positions.${pIndex}.description"></p>
+        <p
+          class="exp__anio"
+          data-i18n="experience.${type}.${index}.positions.${pIndex}.period"
+        ></p>
+        `
+          )
+          .join("")}
+      </div>
+    </div>
+  `;
+  }
+
   return `
     <div class="exp__card">
       <div class="exp__info">

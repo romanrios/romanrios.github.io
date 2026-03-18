@@ -68,9 +68,9 @@ export const skills = [
         items: [
           { es: "UX/UI", en: "UX/UI" },
           { es: "Web & Apps", en: "Web & Apps" },
-          { es: "Identidad Visual", en: "Identidad Visual" },
-          { es: "Diseño Editorial", en: "Diseño Editorial" },
-          { es: "Diseño de Información", en: "Diseño de Información" },
+          { es: "Identidad Visual", en: "Visual Identity" },
+          { es: "Diseño Editorial", en: "Editorial Design" },
+          { es: "Diseño de Información", en: "Información Design" },
           { es: "Sistemas de Diseño", en: "Design Systems" },
           { es: "Producción Audiovisual", en: "Audiovisual Production" },
         ],

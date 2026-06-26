@@ -21,16 +21,31 @@ export const projectsMeta = {
 };
 
 export const projects = {
-
   software: [
+    {
+      roles: { es: "Desarrollo", en: "Development" },
 
+      media: {
+        type: "image",
+        src: "https://raw.githubusercontent.com/romanrios/IFTS-PP4-PI-grupo1/refs/heads/main/frontend/public/mockup.jpg",
+        link: "https://github.com/romanrios/IFTS-PP4-PI-grupo1",
+      },
 
+      title: "MichiGestión",
 
+      description: {
+        es: "Sistema web MERN para gestión de adopciones.",
+        en: "MERN-stack web app for pet adoptions.",
+      },
 
-
-
-    
-
+      links: [
+        {
+          label: "GitHub",
+          url: "https://github.com/romanrios/IFTS-PP4-PI-grupo1",
+        },
+        { label: "Vercel", url: "https://michigestion.vercel.app/" },
+      ],
+    },
 
     {
       roles: { es: "Desarrollo", en: "Development" },
@@ -48,12 +63,14 @@ export const projects = {
         en: "Landing page prototype.",
       },
 
-      links: [{ label: "GitHub", url: "https://github.com/romanrios/plf-landing" },
-      { label: "GitHub Pages", url: "https://romanrios.github.io/plf-landing/" }],
+      links: [
+        { label: "GitHub", url: "https://github.com/romanrios/plf-landing" },
+        {
+          label: "GitHub Pages",
+          url: "https://romanrios.github.io/plf-landing/",
+        },
+      ],
     },
-
-
-
 
     {
       roles: { es: "Desarrollo", en: "Development" },
@@ -71,13 +88,19 @@ export const projects = {
         en: "Web virtual assistant prototype.",
       },
 
-      links: [{ label: "GitHub", url: "https://github.com/romanrios/MTESS-chatbot-web" },
-      { label: "GitHub Pages", url: "https://romanrios.github.io/MTESS-chatbot-web/" }],
+      links: [
+        {
+          label: "GitHub",
+          url: "https://github.com/romanrios/MTESS-chatbot-web",
+        },
+        {
+          label: "GitHub Pages",
+          url: "https://romanrios.github.io/MTESS-chatbot-web/",
+        },
+      ],
     },
 
-
-
-        {
+    {
       roles: { es: "Desarrollo", en: "Development" },
 
       media: {
@@ -93,15 +116,11 @@ export const projects = {
         en: "Web form prototype.",
       },
 
-      links: [{ label: "GitHub", url: "https://github.com/romanrios/MTESS-Form/" },
-      { label: "Vercel", url: "https://mtess-form.vercel.app/" }],
+      links: [
+        { label: "GitHub", url: "https://github.com/romanrios/MTESS-Form/" },
+        { label: "Vercel", url: "https://mtess-form.vercel.app/" },
+      ],
     },
-
-
-
-
-
-
 
     {
       roles: { es: "Desarrollo", en: "Development" },
@@ -119,7 +138,12 @@ export const projects = {
         en: "Sports club Android application.",
       },
 
-      links: [{ label: "GitHub", url: "https://github.com/romanrios/DADM-club-deportivo" }],
+      links: [
+        {
+          label: "GitHub",
+          url: "https://github.com/romanrios/DADM-club-deportivo",
+        },
+      ],
     },
 
     {
@@ -160,7 +184,12 @@ export const projects = {
         en: "Windows management software in C#.",
       },
 
-      links: [{ label: "GitHub", url: "https://github.com/romanrios/DSOO-club-deportivo/" }],
+      links: [
+        {
+          label: "GitHub",
+          url: "https://github.com/romanrios/DSOO-club-deportivo/",
+        },
+      ],
     },
 
     {
@@ -180,7 +209,10 @@ export const projects = {
       },
 
       links: [
-        { label: "GitHub", url: "https://github.com/romanrios/challenge_integrador" },
+        {
+          label: "GitHub",
+          url: "https://github.com/romanrios/challenge_integrador",
+        },
         { label: "Vercel", url: "https://romanrios-funkoshop.vercel.app/home" },
       ],
     },
@@ -197,12 +229,15 @@ export const projects = {
       title: "Romanflix",
 
       description: {
-        es: "Proyecto React para Alura.",
-        en: "React Project for Alura.",
+        es: "Aplicación React para gestión de videos.",
+        en: "React video management application.",
       },
 
       links: [
-        { label: "GitHub", url: "https://github.com/romanrios/oracle-next-education/" },
+        {
+          label: "GitHub",
+          url: "https://github.com/romanrios/oracle-next-education/tree/main/challenge-aluraflix",
+        },
         {
           label: "GitHub Pages",
           url: "https://romanrios.github.io/oracle-next-education/challenge-aluraflix/dist/",
@@ -222,12 +257,15 @@ export const projects = {
       title: "To-Do List",
 
       description: {
-        es: "Proyecto React para Codo a Codo.",
-        en: "React Project for Codo a Codo.",
+        es: "Aplicación React para gestión de tareas.",
+        en: "React task management application.",
       },
 
       links: [
-        { label: "GitHub", url: "https://github.com/romanrios/cac-react-grupo3/" },
+        {
+          label: "GitHub",
+          url: "https://github.com/romanrios/cac-react-grupo3/",
+        },
         {
           label: "GitHub Pages",
           url: "https://romanrios.github.io/cac-react-grupo3/ToDoMar/dist/",
@@ -235,7 +273,6 @@ export const projects = {
       ],
     },
   ],
-
 
   games: [
     {
@@ -259,7 +296,10 @@ export const projects = {
 
       links: [
         { label: "GitHub", url: "https://github.com/romanrios/pinomolino" },
-        { label: "GitHub Pages", url: "https://romanrios.github.io/pinomolino/" },
+        {
+          label: "GitHub Pages",
+          url: "https://romanrios.github.io/pinomolino/",
+        },
         { label: "Itch.io", url: "https://romanrios.itch.io/pinomolino/" },
         { label: "Gato.us", url: "https://www.gato.us/game/pino-en-el-molino" },
       ],
@@ -312,7 +352,10 @@ export const projects = {
 
       links: [
         { label: "GitHub", url: "https://github.com/romanrios/spacewars" },
-        { label: "GitHub Pages", url: "https://romanrios.github.io/spacewars/" },
+        {
+          label: "GitHub Pages",
+          url: "https://romanrios.github.io/spacewars/",
+        },
         { label: "Itch.io", url: "https://romanrios.itch.io/spacewars/" },
         { label: "Gato.us", url: "https://www.gato.us/game/sp4c3-w4rs" },
       ],
@@ -339,7 +382,10 @@ export const projects = {
 
       links: [
         { label: "Itch.io", url: "https://romanrios.itch.io/schokoladenbar/" },
-        { label: "GitHub Pages", url: "https://romanrios.github.io/schokoladenbar/00" },
+        {
+          label: "GitHub Pages",
+          url: "https://romanrios.github.io/schokoladenbar/00",
+        },
       ],
     },
 
@@ -363,8 +409,14 @@ export const projects = {
       },
 
       links: [
-        { label: "Itch.io", url: "https://romanrios.itch.io/bubble-jam-master" },
-        { label: "GGJ2025", url: "https://globalgamejam.org/games/2025/bubble-jam-master-4" },
+        {
+          label: "Itch.io",
+          url: "https://romanrios.itch.io/bubble-jam-master",
+        },
+        {
+          label: "GGJ2025",
+          url: "https://globalgamejam.org/games/2025/bubble-jam-master-4",
+        },
       ],
     },
 
@@ -389,14 +441,15 @@ export const projects = {
 
       links: [
         { label: "Itch.io", url: "https://romanrios.itch.io/mostrimaker/" },
-        { label: "GGJ2024", url: "https://globalgamejam.org/games/2024/mostri-maker-4" },
+        {
+          label: "GGJ2024",
+          url: "https://globalgamejam.org/games/2024/mostri-maker-4",
+        },
       ],
     },
   ],
 
-
   design: [
-
     {
       roles: { es: "Diseño", en: "Design" },
 
@@ -413,7 +466,9 @@ export const projects = {
         en: "Various projects (coming soon).",
       },
 
-      links: [/*{ label: "Behance", url: "" }*/],
+      links: [
+        /*{ label: "Behance", url: "" }*/
+      ],
     },
 
     {

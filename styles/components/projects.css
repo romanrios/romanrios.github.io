@@ -20,7 +20,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-bottom: 2em;
+  padding: 1rem 0.8rem 2rem 0.8rem;
+  gap: 2rem 1rem
 }
 
 .project-header {
@@ -37,8 +38,10 @@
 }
 
 .project-detail {
-  width: 400px;
-  margin: 15px;
+  /* Reemplaza width: 400px; por esto: */
+  flex: 1 1 350px; /* Crece, se achica, y su base ideal es 350px */
+  max-width: 500px;
+  /* margin: 15px; */
   text-wrap: pretty;
 }
 
@@ -70,45 +73,6 @@
   left: 0;
   width: 100%;
   height: 100%;
-}
-
-
-/* TARJETAS "VER MÁS" */
-
-.project_ver-mas {
-  width: 400px;
-  margin: 15px;
-  height: 225px;
-  background: var(--color-gradient1);
-  display: flex;
-  flex-direction: column;
-  border-radius: 15px;
-  justify-content: center;
-  text-align: center;
-  opacity: 0.6;
-  transition: all 0.5s;
-}
-
-.project_ver-mas div span,
-.project_ver-mas i {
-  color: #fff !important;
-}
-
-.project_ver-mas:hover {
-  opacity: 1;
-}
-
-.project_plus {
-  position: relative;
-  font-size: 30px;
-  top: 4px;
-}
-
-.project-icon {
-  opacity: 0.7;
-  font-size: 100px !important;
-  margin-bottom: 10px;
-  margin-top: -10px;
 }
 
 /* LINKS */
